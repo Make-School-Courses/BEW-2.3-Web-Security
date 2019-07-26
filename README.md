@@ -20,21 +20,22 @@ By the end of the course, you will be able to ...
 
 ## Schedule
 
-| Class | Date  | Topic                                                             |
-| :---: | :---: | ----------------------------------------------------------------- |
-|   1   |  TBD  | [Lesson 1]: **Why Study Web Security?**                           |
-|   2   |  TBD  | [Lesson 2]: **Hacking 101: Historic Hacks & How to Exploit Them** |
-|   3   |  TBD  | [Lesson 3]: **Embodying the Ethical Hacker**                      |
-|   4   |  TBD  | [Lesson 4]: **Addressing the Adversary: Attack Vectors**          |
-|   5   |  TBD  | [Lesson 5]: **XSS & SQL Injection Attacks**                       |
-|   6   |  TBD  | [Lesson 6]: **DDoS & MiTM Attacks**                               |
-|   7   |  TBD  | [Lesson 7]: **OWASP Best Practices**                              |
-|   8   |  TBD  | [Lesson 8]: **Finding & Fixing Insecure Code**                    |
-|   9   |  TBD  | [Lesson 9]: **Securing Data: Sanitization & Validation**          |
-|  10   |  TBD  | [Lesson 10]: **Firewalls & VPNs**                                 |
-|  11   |  TBD  | [Lesson 11]: **Security in the Cloud**                            |
-|  12   |  TBD  | [Lesson 12]: **Capture the Flag Day**                         |
-|  13   |  TBD  | Final Exam / Presentations                                        |
+| Date  |  Security Category   | Topic                                                    |
+| :---: | :------------------: | -------------------------------------------------------- |
+|  TBD  | _Social Engineering_ | **[Lesson 1]: How to Hack a Human**                      |
+|  TBD  |      _Culture_       | **[Lesson 2]: Historic Hacks / Ethical Hacking**         |
+|  TBD  |        _Web_         | **[Lesson 3]: Server-Side Vulnerabilities**              |
+|  TBD  |        _Web_         | **[Lesson 4]: Securing Data: Sanitization & Validation** |
+|  TBD  |        _Web_         | **[Lesson 5]: Client-Side Vulnerabilities**              |
+|  TBD  |    _Operational_     | **[Lesson 6]: You've Been Hacked. What Do?**             |
+|  TBD  |        _Web_         | **[Lesson 7]: OWASP Best Practices**                     |
+|  TBD  |        _Web_         | **[Lesson 8]: Recognize & Refactor Risky Code**          |
+|  TBD  |      _Network_       | **[Lesson 9]: Build Your Own Botnet**                    |
+|  TBD  |    _Operational_     | **[Lesson 10]: Defense In Depth**                        |
+|  TBD  |      _Computer_      | **[Lesson 11]: Securing Your Application Server**        |
+|  TBD  |        _Web_         | **[Lesson 12]: Tips, Tricks, & Tools of the Trade**      |  |
+|  TBD  |   _Culture / Web_    | **[Lesson 13]: Capture the Flag Day**                    |
+|  TBD  | _**Final Project**_  | **Presentations: _BATTLE of the BOTNETS!_**              |
 
 [Lesson 1]: Lessons/Lesson1.md
 [Lesson 2]: Lessons/Lesson2.md
