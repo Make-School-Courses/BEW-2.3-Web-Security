@@ -1,1 +1,15 @@
-COPY YOUR Lesson 1 format
+# 📜 Day 2: Title
+
+## ⏱ Agenda
+
+## 🏆 Learning Objectives
+
+## 📖 Overview
+
+## 💻 In Class Activity
+
+## 🌴 BREAK
+
+## 🌃 After Class
+
+## 📚 Resources & Credits

@@ -1,3 +1,3 @@
 *  **[Syllabus](README.md)**
-*  **[Tracker](https://www.makeschool.com)**
+*  **[Tracker](https://make.sc/trackbew2.3)**
 * [Make School](https://www.makeschool.com)
