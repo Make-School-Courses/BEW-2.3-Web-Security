@@ -12,11 +12,11 @@ Describe your course here. A short elevator pitch for the course, use positive, 
 
 By the end of the course, you will be able to ...
 
-1. Identify & Describe
-2. Explain
-3. Compare & Contrast
-4. Design & Implement
-5. Practice
+1. Confidently talk about different types of vulnerabilities within the security space
+1. Defend against vulnerabilities and attacks
+1. Apply web security best practices to your projects
+1. Understand and utilize adversarial security techniques
+1. Use practical techniques for securing applications and web servers
 
 ## Schedule
 
