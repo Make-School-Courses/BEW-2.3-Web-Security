@@ -2,6 +2,13 @@
 
 ## ⏱ Agenda
 
+- Learning Objectives
+- What is social engineering?
+- Social engineering a netflix login
+- Examples of social engineering
+- Break
+- Social engineering for good
+
 ## 🏆 Learning Objectives
 By the end of this lesson, you should be able to...
 
