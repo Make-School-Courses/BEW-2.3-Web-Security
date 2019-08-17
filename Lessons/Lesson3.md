@@ -188,7 +188,8 @@ Notice how your bank or Venmo logs you out after a certain period of inactivity?
 
 ## 🌃 After Class
 
-Finish the SQL Injection and CSRF exercises, readings, and quizzes on Hacksplaining.
+1. Finish the SQL Injection and CSRF exercises, readings, and quizzes on Hacksplaining.
+1. Set up the [DevOps-Security-App](https://github.com/Make-School-Courses/DevOps-Security-App) and then read the `HOW-TO-EXPLOIT.md` file to follow directions for the `SQL Injection` section
 
 ## 📚 Resources & Credits
 
