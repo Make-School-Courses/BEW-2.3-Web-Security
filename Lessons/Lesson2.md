@@ -25,7 +25,7 @@
 2. What do you _want_ to know about web security?
 3. What do you think is the **biggest problem** with web security today?
 
-**Submit your answers [HERE](https://PollEv.com/free_text_polls/Fj8P0tWkgbjhaVy4JYJMy/respond) so we can discuss them live!**
+**Submit your answers [HERE](https://PollEv.com/droxey) so we can discuss them live!**
 
 ## 💻 [**40m**] Activity: Historical Hacks Research
 
