@@ -1,31 +1,36 @@
-# Class - Assignment Title 
+# Botnet Project
 
-## Description 
+### Table of Contents
+
+1. [Project Description](#project-description)
+2. [Project Requirements](#project-requirements)
+3. [Deliverables](#deliverables)
+4. [Assessing the Project](#assessing-the-project)
+
+## Project Description
 
 A short description of your assignment
 
-### Why this assignment?
+### Why Are We Doing This?
 
-A short description that hits home as to why this assignment is important to do. 
+A short description that hits home as to why this assignment is important to do.
 
-## Project requirements
+## Project Requirements
 
-Descirbe the requirements of this assignment.
+Describe the requirements of this assignment.
 
-### Deliverable
+## Deliverables
 
-Describe what is due, file, type, link to repo etc. 
+- [ ] Public GitHub repo linked in
+- [ ] Deployed Botnet
+- [ ]
 
-### Due date
+### Due Date
 
 Date this project is due
 
-## What is this assignment 
+## Assessing the Project
 
-Detailed description... 
-
-## Assessing the assignment
-
-[Assignment Name Rubric](./assignment-rubric.md)
+[Botnet Project Rubric](./assignment-rubric.md)
 
 

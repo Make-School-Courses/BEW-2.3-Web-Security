@@ -2,8 +2,6 @@
 
 ## Course Description
 
-Describe your course here. A short elevator pitch for the course, use positive, friendly language to get students excited to take your course. Use of I/you/we should be used over instructor/students.
-
 ## Prerequisites
 
 - [BEW 1.2](https://make.sc/bew1.2)
@@ -13,10 +11,10 @@ Describe your course here. A short elevator pitch for the course, use positive, 
 By the end of the course, you will be able to ...
 
 1. Confidently talk about different types of vulnerabilities within the security space
-1. Defend against vulnerabilities and attacks
-1. Apply web security best practices to your projects
-1. Understand and utilize adversarial security techniques
-1. Use practical techniques for securing applications and web servers
+2. Defend against  vulnerabilities and attacks
+3. Apply web security best practices to your projects
+4. Understand and utilize adversarial security techniques
+5. Use practical techniques for securing applications and web servers
 
 ## Schedule
 
@@ -34,8 +32,8 @@ By the end of the course, you will be able to ...
 |  9/26 |    _Operational_     | **[Lesson 10]: Defense In Depth**                        |
 |  10/1 |      _Computer_      | **[Lesson 11]: Securing Your Application Server**        |
 |  10/3 |        _Web_         | **[Lesson 12]: Tips, Tricks, & Tools of the Trade**      |  |
-|  10/8 |   _Culture / Web_    | **[Lesson 13]: Capture the Flag Day**                    |
-|  10/10 | _**Final Project**_  | **Presentations: _BATTLE of the BOTNETS!_**              |
+|  10/8 |   _Culture / Web_    | **Botnet Project Lab Day & CtF Kickoff**|
+|  10/10 | _**Last Class**_  | **Activity: Capture the Flag Day**              |
 
 [Lesson 1]: Lessons/Lesson1.md
 [Lesson 2]: Lessons/Lesson2.md
@@ -51,27 +49,37 @@ By the end of the course, you will be able to ...
 [Lesson 12]: Lessons/Lesson12.md
 [Lesson 13]: Lessons/Lesson13.md
 
-<!--
+
 ## Class Assignments
 
 ### Tutorials
 
-- [Do Cool Stuff Tutorial]()
+<p align="center">
+  <img src="Resources/TutorialGuide.png" alt="Tutorial Guide">
+</p>
+
+-  **Complete ANY 20  mini-tutorials on [Hacksplaining](https://www.hacksplaining.com)**
+  - **Challenge**: Finish **both green sections** for homework
+     - **Step 1**: Complete the **Exercise**
+     - **Step 2**: Read the **Prevention** documentation
+     - **Step 3**: Submit a screenshot of the completed activity using [this form]()
+   - **Stretch Challenge**: Complete **all 25 tutorials**
+       - **Prize**: Earn a unique 3d printed hacker badge for completing all tutorials!
+- Quizzes are distributed and completed at the start of class
+
 
 ### Projects
 
-- [Project](Assignments/Project.md)
+- [Botnet Project](Assignments/Project.md)
   - [Rubric](Assignments/Rubric.md)
--->
 
 ## Evaluation
 
 To pass this course you must meet the following requirements:
 
-- Complete all required assignments
-- Pass all projects according to the associated project rubric
-- Pass the final summative assessment according to the rubric as specified in this class
-    - This will be further explained in the [study guide](Resources/StudyGuide.md)
+- Complete all required [assignments and tutorials](#class-assignments)
+- Pass all projects according to the associated [project rubric](Assignments/Rubric.md)
+- Complete and pass all in-class quizzes
 - Actively participate in class and abide by the attendance policy
 - Make up all classwork from all absences
 
@@ -80,7 +88,7 @@ To pass this course you must meet the following requirements:
 - [Program Learning Outcomes](https://make.sc/program-learning-outcomes) - What you will achieve after finishing Make School, all courses are designed around these outcomes.
 - [Grading System](https://make.sc/grading-system) - How grading is done at Make School
 - [Diversity and Inclusion Statement](https://make.sc/diversity-and-inclusion-statement) - Learn about Diversity and Inclusion at Make School
-- [Academic Honesty](https://make.sc/academic-honesty-policy) - Our policies around plagerism, cheating, and other forms of academic misconduct 
+- [Academic Honesty](https://make.sc/academic-honesty-policy) - Our policies around plagerism, cheating, and other forms of academic misconduct
 - [Attendance Policy](https://make.sc/attendance-policy) - What we expect from you in terms of attendance for all classes at Make School
 - [Course Credit Policy](https://make.sc/course-credit-policy) - Our policy for how you obtain credit for your courses
 - [Disability Services (Academic Accommodations)](https://make.sc/disability-services) - Services and accommodations we provide for students
