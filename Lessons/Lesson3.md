@@ -108,11 +108,13 @@ Notice how your bank or Venmo logs you out after a certain period of inactivity?
 
 ## 💻 [**60m**] In Class Activity: SSTI
 
-Template engines are widely used by web applications to present dynamic data via web pages and emails. Unsafely embedding user input in templates enables Server-Side Template Injection, a frequently critical vulnerability that is extremely easy to mistake for Cross-Site Scripting (XSS), or miss entirely.
+Template engines are widely used by web applications to present dynamic data via web pages and emails. **Unsafely embedding user input in templates enables Server-Side Template Injection, a frequently critical vulnerability that is extremely easy to mistake for Cross-Site Scripting (XSS), or miss entirely**.
 
-Unlike XSS, Template Injection can be used to directly attack web servers' internals and often obtain Remote Code Execution (RCE), turning every vulnerable application into a potential pivot point.
+Unlike XSS, Template Injection can be **used to directly attack web servers' internals and often obtain Remote Code Execution** (RCE), turning every vulnerable application into a potential pivot point.
 
-Template Injection can arise both through developer error, and through the intentional exposure of templates in an attempt to offer rich functionality, as commonly done by wikis, blogs, marketing applications and content management systems. Intentional template injection is such a common use-case that many template engines offer a 'sandboxed' mode for this express purpose. This paper defines a methodology for detecting and exploiting template injection, and shows it being applied to craft RCE zerodays for two widely deployed enterprise web applications. Generic exploits are demonstrated for five of the most popular template engines, including escapes from sandboxes whose entire purpose is to handle user-supplied templates in a safe way.
+Template Injection can arise both through **developer error**, and through the **intentional exposure of templates in an attempt to offer rich functionality**, as commonly done by wikis, blogs, marketing applications and content management systems.
+
+Intentional template injection is such a common use-case that many template engines offer a 'sandboxed' mode for this express purpose.
 
 ### Attacking Server-Side Rendered Templates
 
