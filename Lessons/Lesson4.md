@@ -47,7 +47,9 @@ One method of client side sanitization is by using a **string parser** to replac
 - [**CSS Escapes**](https://developer.mozilla.org/en-US/docs/Web/API/CSS/escape) - escapes any string passed as a parameter. For example: `CSS.escape(".foo#bar") // "\.foo\#bar"`
 - [**URL Encoding**](https://developer.mozilla.org/en-US/docs/Glossary/percent-encoding) - Similar to HTML entities, URL encoding is a way to encode certain characters that have specific meaning in the context of URLs without actually using the characters themselves. For example, `+` can be represented as `%2B`
 
-### 💻 Activity: Write Your Own Sanitization Script
+## 🌴 Break
+
+### 💻 [25m] Activity: Write A Basic Sanitization Script
 
 Using any of the above techniques, write a sanitization function that prevents a user from inputting `<script>`, `' OR 1 = 1;`, or any type of URL manipulation that you can think of.
 
@@ -62,15 +64,13 @@ Are you a React person?  You might want to check out these ways to perform clien
 
 * [react-sanitized-html](https://www.npmjs.com/package/react-sanitized-html) - component that wraps the sanitize-html package
 
-
-
 ## Server Side Sanitization
 
 On the server side, there's a lot more tools available for us to use. Use a library like [DOMPurify](https://github.com/cure53/DOMPurify) or write your own sanitization script but, if you're working with Express JS you have access to middleware, such as [express-sanitizer](https://www.npmjs.com/package/express-sanitizer)
 
 Not sanitizing code can lead to your website being open to relatively easy types of attacks, and giving those attackers the opportunity can put the blame on you.  We're going to explore how SQLI works, and then write scripts that defeat it.
 
-### 💻 Activity: Baby's First SQLI
+### 💻 [20m] Activity: Baby's First SQLI
 
 SQL injection attacks are a common type of attack where the malicious actor will inject an SQL statement somewhere in an input field to bypass authentication or obtain database records.
 
@@ -78,18 +78,10 @@ First, open [this SQLfiddle](http://sqlfiddle.com/#!9/89672/3/0).  You'll see a 
 
 Pretend you're only on the client side and you only have a login form as an attack surface.  First modify only the given email xxx@xxx.xxx to return **every record in the database**.  Then, change the email back and do the same by only modifying the password.
 
-Hint: SQL comment syntax: -- < comment >
+Hint: SQL comment syntax: `-- < comment >`
 
 What else could you do besides just return records with this kind of access?
 
-
-### 💻 Activity: Write Your Own Sanitization Script
-
-Take an old project or tutorial, and integrate express-sanitizer or DOMPurify to it to sanitize your server side code!
-
-The instructor will check in on progress throughout this and then have 1-2 students present their script for review. We'll also take this time for the instructor to share some tips/tricks/info writing these sanitization scripts.
-
-## 🌴 Break
 
 ## Client Side Sanitization - Browserify
 
@@ -108,7 +100,6 @@ You'll use Browserify to collect JavaScript libraries into a single file that yo
 
 This allows you to further protect your code. [Read more about IIFEs here](https://developer.mozilla.org/en-US/docs/Glossary/IIFE)
 
-
 ### 💻 Activity: Browserify + DOMPurify Sanitization
 
 - Follow the [instructions](http://browserify.org) to install and set up Browserify
@@ -121,10 +112,11 @@ app.use(express.static('public'));
 
 - Install [DOMPurify](https://github.com/cure53/DOMPurify) and use it to make a client-side sanitization script. You will have to run all of your client JS from a module!
 
+### 💻 Activity: Write Your Own Sanitization Script
+
+Take an old project or tutorial, and integrate express-sanitizer or DOMPurify to it to sanitize your server side code!
+
+The instructor will check in on progress throughout this and then have 1-2 students present their script for review. We'll also take this time for the instructor to share some tips/tricks/info writing these sanitization scripts.
 
 ## 🌃 After Class
-
-Add server/client sanitization to another project, and put the link to your commit in the course tracker
-×
-Drag and Drop
-The image will be downloaded
+Finish the above activity and put the link to your commit in the course tracker.
