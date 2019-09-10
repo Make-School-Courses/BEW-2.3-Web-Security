@@ -1,8 +1,18 @@
 # 📜 Day 5: Client-Side Vulnerabilities
 
-## ⏱ Agenda
+### ⏱ Agenda
 
-## 🏆 Learning Objectives
+1. [[**5m**] 🏆 Learning Objectives](#5m-%f0%9f%8f%86-learning-objectives)
+2. [[**00m**] 📖 Overview](#00m-%f0%9f%93%96-overview)
+3. [[**00m**] 💻 Activity: Think / Pair / Share](#00m-%f0%9f%92%bb-activity-think--pair--share)
+4. [[**00m**] 💻 Activity: Try Out XSS](#00m-%f0%9f%92%bb-activity-try-out-xss)
+5. [[**10m**] 🌴 BREAK](#10m-%f0%9f%8c%b4-break)
+6. [[**00m**] 💻 Activity: The XSS Games](#00m-%f0%9f%92%bb-activity-the-xss-games)
+7. [[**00m**] 📖 Overview: Defense](#00m-%f0%9f%93%96-overview-defense)
+8. [🌃 After Class](#%f0%9f%8c%83-after-class)
+9. [📚 Resources & Credits](#%f0%9f%93%9a-resources--credits)
+
+## [**5m**] 🏆 Learning Objectives
 
 By the end of this lesson, you should be able to...
 
@@ -10,11 +20,11 @@ By the end of this lesson, you should be able to...
 1. Use Cross Site Scripting (XSS) to perform hacks
 1. Identify XSS Exploits and Vulnerabilities
 
-## 📖 Overview
+## [**00m**] 📖 Overview
 
 So we've learned how we can be attacked on the server-side, and are now equipped with knowledge on how to level up our defenses. So now we need to make sure we're aware of what can go wrong on the client, and how we can defend against that.
 
-## Client-Side Attacks
+### Client-Side Attacks
 
 ![client](Lesson5Assets/client.jpeg)
 
@@ -28,7 +38,7 @@ Recall **Phishing** from the first lesson. _That's a type of client-side attack!
 
 Other forms of client-side attacks can be more generally described as getting users to click on malicious links. There's a variety of ways to accomplish this as an attacker, one of which we'll do a deep dive into below...
 
-## Cross Site Scripting (XSS)
+### Cross Site Scripting (XSS)
 
 **XSS attacks are client side attacks where hackers execute malicious code in the browser or insert code into web content, usually through forms.**
 
@@ -45,7 +55,7 @@ Check out this illustrated example below to see how an XSS attack can be execute
 
 ![xss](Lesson5Assets/xss.png)
 
-## 💻 Think / Pair / Share
+## [**00m**] 💻 Activity: Think / Pair / Share
 
 2 minutes each for think, pair, and share:
 
@@ -53,7 +63,7 @@ We saw in the example above that session cookies are stolen. What are other exam
 
 **Answer:**
 
-A scary amount of things! Through XSS, _an attaker has access to anything the page source has access to._ This can include:
+A scary amount of things! Through XSS, _an attacker has access to anything the page source has access to._ This can include:
 
 - Cookies, tokens etc.
 - User data
@@ -62,21 +72,22 @@ A scary amount of things! Through XSS, _an attaker has access to anything the pa
 - Access to Browser APIs like camera, mic, geolocation etc.
 - Editing page style
 - Click jacking
+- Autofill/Keychain Data
 
-## 💻 Try Out XSS
+## [**00m**] 💻 Activity: Try Out XSS
 
 Remember that [Dev-Ops Security App](https://github.com/Make-School-Courses/DevOps-Security-App)? Open that back up and let's try out an XSS attack/defense with it.
 
 Follow the instructions on the [How To Exploit](https://github.com/Make-School-Courses/DevOps-Security-App/blob/master/HOW-TO-EXPLOIT.md#xss) guide for XSS
 
-## 🌴 BREAK
+## [**10m**] 🌴 BREAK
 
-## 💻 The XSS Games
+## [**00m**] 💻 Activity: The XSS Games
 
 1. Read through [this list of XSS attack vectors](https://www.acunetix.com/websitesecurity/cross-site-scripting/) to familiarize yourself with the vectors you can exploit
 1. Get through as many of the levels in the [XSS Games](https://xss-game.appspot.com) as you can with the time allotted for this activity
 
-## How to Defend Against XSS
+## [**00m**] 📖 Overview: Defense
 
 We've seen how to use these attacks, but how do we try to defend ourselves against them? Luckily there are a lot of tools we can use, most of them are already in place:
 
@@ -90,24 +101,29 @@ Only allowing certain values/characters to be used as input can help with mainta
 
 ### Use a Content Security Policy
 
-Enforcing a content security policy will allow you to dictate where JS code can and cannot be loaded and executed in your web app. 
+Enforcing a content security policy will allow you to dictate where JS code can and cannot be loaded and executed in your web app.
 
 You can read more about how to include a content security policy in [this quick reference guide](https://content-security-policy.com/)
 
-## Quick Note on Reflected and DOM-Based XSS Attacks
+### Quick Note on Reflected and DOM-Based XSS Attacks
 
-### Reflected XSS
+#### Reflected XSS
 
 A **Reflected XSS** attack can occur when query string parameters in a URL are assumed to be trustworthy, and therefore an attacker can exploit that to run code in the URL. These types of XSS attacks are much more common than the general XSS attack previously described.
 
-You can protect yourself from these attacks in the same way: dynamically escaping your string parameters!
+You can protect yourself from these attacks in the same way: dynamically escaping your string parameters!  As these are the very same query parameters that we deal with in route handlers/controllers, sanitizing input in the endpoints is a good step in securing your application.
 
-### DOM-Based XSS
+#### Stored XSS
 
-A **DOM-Based XSS** attack can occur when an attacker can exploit URI fragments. A **URI fragment** is the piece of a url after the `#`. For example, click on the anchor link anywhere on this page next to a header, and see how the URL changes! Everything after the `#` is a URI fragment. So any time a URI fragment is used to execute malicious code, an attacker has succesfully pulled off a DOM-Based XSS attack.
+A **Stored XSS** attack can occur when users are able to store unsanitized input in the database.  An attacker can exploit this by entering malicious code into a publicly requestable resource, like a posted text field or visitor logs.  The victim retrieves and unknowingly runs the malicious script when they request the information.  This can be in the form of posts, comments, usernames, and various alternatives that one user can expose to others.
 
-This is the rarest of the XSS attacks because it's also the easiest to defend against. Using templates provided in a JS framework will prevent these vulnerabilities from occuring, as will having a content security policy.
+You can protect yourself the same way that you protect yourself from reflected XSS attacks, but also making sure anything being stored in the database from user input is sanitized before entry.
 
+#### DOM-Based XSS
+
+A **DOM-Based XSS** attack can occur when an attacker can exploit URI fragments. A **URI fragment** is the piece of a url after the `#`. For example, click on the anchor link anywhere on this page next to a header, and see how the URL changes! Everything after the `#` is a URI fragment. So any time a URI fragment is used to execute malicious code, an attacker has successfully pulled off a DOM-Based XSS attack.
+
+This is the rarest of the XSS attacks because it's also the easiest to defend against. Using templates provided in a JS framework will prevent these vulnerabilities from occurring, as will having a content security policy.
 
 ## 🌃 After Class
 
