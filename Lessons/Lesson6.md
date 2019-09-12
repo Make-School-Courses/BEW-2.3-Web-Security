@@ -19,14 +19,14 @@ By the end of this lesson, you should be able to...
 
 As of 2018, the average cost of a enterprise data breach is an average of $3.86 million in direct cost, and the average recovery to market value is 48 days, causing further financial loss.  **Incident Response**, or how you react to the attack, is a pillar of cybersecurity and critical in minimizing these losses.
 
-![pillars](lesson6Assets/cybersecurity_pillars.png)
+![pillars](lesson6assets/cybersecurity_pillars.png)
 
 
 ### Incident Response
 
 The biggest part of incident response is ironically preparation! Not only should you lock down those ports and sanitize user input, you should also have a plan for the unfortunate event you get hacked.  Your plan should be a cycle, including all the steps between the breach and recovery.  Using industry principles, let's break down how to prepare:
 
-![incident-response](lesson6Assets/incident-response-planning.png)
+![incident-response](lesson6assets/incident-response-planning.png)
 
 ### Before the Attack
 
