@@ -26,7 +26,7 @@ By the end of the course, you will be able to ...
 |  9/5  |        _Web_         | **[Lesson 4]: Securing Data: Sanitization & Validation** |
 |  9/10 |        _Web_         | **[Lesson 5]: Client-Side Vulnerabilities**              |
 |  9/12 |    _Operational_     | **[Lesson 6]: You've Been Hacked. What Do?**             |
-|  9/17 |        _Web_         | **[Lesson 7]: OWASP Best Practices**                     |
+|  9/17 |        _Web_         | **[Lesson 7]: Intro to Information Hiding**                     |
 |  9/19 |        _Web_         | **[Lesson 8]: Recognize & Refactor Risky Code**          |
 |  9/24 |      _Network_       | **[Lesson 9]: Build Your Own Botnet**                    |
 |  9/26 |    _Operational_     | **[Lesson 10]: Defense In Depth**                        |
