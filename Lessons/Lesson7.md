@@ -21,12 +21,15 @@ Go over [kelvins/steganography](https://github.com/kelvins/steganography) and th
 ### Challenges
 
 1. Use a steganographic technique to **hide a string** inside of an image.
-2. Do the same thing, but instead, **hide a file** inside of an image.
-3. Do the same thing, but instead, **hide an image** inside of an image.
+1. Do the same thing, but instead, **hide a file** inside of an image.
+1. Do the same thing, but instead, **hide an image** inside of an image.
 
-### Stretch Challenge
+Slack each challenge out to the class channel before you move on to the next one!
 
-1. Can you get the message hidden inside another person's image created in Challenge #1?
+### Stretch Challenges
+
+1. Write your own version of a steganographic algorithm and Slack it out to the class channel.
+2. Can you get the message hidden inside another person's image created in Challenge #1?
 
 ## 🌴 [10m] BREAK
 
