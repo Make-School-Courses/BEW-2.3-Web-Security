@@ -20,20 +20,20 @@ By the end of the course, you will be able to ...
 
 | Date  |  Security Category   | Topic                                                    |
 | :---: | :------------------: | -------------------------------------------------------- |
-|  8/27 | _Social Engineering_ | **[Lesson 1]: How to Hack a Human**                      |
-|  8/29 |      _Culture_       | **[Lesson 2]: Historic Hacks / Ethical Hacking**         |
+| 8/27  | _Social Engineering_ | **[Lesson 1]: How to Hack a Human**                      |
+| 8/29  |      _Culture_       | **[Lesson 2]: Historic Hacks / Ethical Hacking**         |
 |  9/3  |        _Web_         | **[Lesson 3]: Server-Side Vulnerabilities**              |
 |  9/5  |        _Web_         | **[Lesson 4]: Securing Data: Sanitization & Validation** |
-|  9/10 |        _Web_         | **[Lesson 5]: Client-Side Vulnerabilities**              |
-|  9/12 |    _Operational_     | **[Lesson 6]: You've Been Hacked. What Do?**             |
-|  9/17 |        _Web_         | **[Lesson 7]: Intro to Information Hiding**                     |
-|  9/19 |        _Web_         | **[Lesson 8]: Recognize & Refactor Risky Code**          |
-|  9/24 |      _Network_       | **[Lesson 9]: Build Your Own Botnet**                    |
-|  9/26 |    _Operational_     | **[Lesson 10]: Defense In Depth**                        |
-|  10/1 |      _Computer_      | **[Lesson 11]: Securing Your Application Server**        |
-|  10/3 |        _Web_         | **[Lesson 12]: Tips, Tricks, & Tools of the Trade**      |  |
-|  10/8 |   _Culture / Web_    | **Botnet Project Lab Day & CtF Kickoff**|
-|  10/10 | _**Last Class**_  | **Activity: Capture the Flag Day**              |
+| 9/10  |        _Web_         | **[Lesson 5]: Client-Side Vulnerabilities**              |
+| 9/12  |    _Operational_     | **[Lesson 6]: You've Been Hacked. What Do?**             |
+| 9/17  |        _Web_         | **[Lesson 7]: Intro to Information Hiding**              |
+| 9/19  |        _Web_         | **[Lesson 8]: Large Scale Attacks, Real World Defenses** |
+| 9/24  |      _Network_       | **[Lesson 9]: Recognize & Refactor Risky Code**          |
+| 9/26  |    _Operational_     | **[Lesson 10]: Defense In Depth**                        |
+| 10/1  |      _Computer_      | **[Lesson 11]: Securing Your Application Server**        |
+| 10/3  |        _Web_         | **[Lesson 12]: Tips, Tricks, & Tools of the Trade**      |
+| 10/8  |   _Culture / Web_    | **Botnet Project Lab Day & CtF Kickoff**                 |
+| 10/10 |   _**Last Class**_   | **Activity: Capture the Flag Day**                       |
 
 [Lesson 1]: Lessons/Lesson1.md
 [Lesson 2]: Lessons/Lesson2.md
