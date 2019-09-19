@@ -31,7 +31,9 @@ The work of a Distributed Denial of Service attack is typically done by a [botne
 
 This can be accomplished by luring users into making a drive-by download, exploiting web browser vulnerabilities, or by tricking the user into running a Trojan horse program, which may come from an email attachment.
 
-This malware will typically install modules that allow the computer to be commanded and controlled by the botnet's operator. After the software is downloaded, it will call home (send a reconnection packet) to the host computer. When the re-connection is made, depending on how it is written, a Trojan may then delete itself or may remain present to update and maintain the modules.
+Botnets typically **install modules** that allow the computer to be **commanded and controlled** by the botnet's operator.
+
+After the software is downloaded, it will **call home** to the host computer. When the re-connection is made, a bot may then delete itself or remain present to update and maintain the modules at the operator's behest.
 
 ### Features of a Botnet
 
