@@ -101,7 +101,7 @@ You can find the official apple instructions to do enable the root user on MacOs
 
 Now that we have that set up, lets install metasploit. [This](http://osx.metasploit.com/metasploitframework-latest.pkg) is the rolling latest version link for Mac.  Open the installer and follow the instructions.
 
-Assuming your terminal profile starts from your user directory, you'll need to back out and navigate to `../../opt/metasploit-framework/msfconsole` to start the MSFC.  After you use the root user we enabled earlier with the command `su root`, Metasploit should now be at your fingertips.  Give it a whirl with the commands from earlier!
+Assuming your terminal profile starts from your user directory, you'll need to run `su root` && `/opt/metasploit-framework/bin/msfconsole` to start the MSFC.  Give it a whirl!
 
 ### MSFVenom and Meterpreter
 
