@@ -88,7 +88,7 @@ Each team will **Slack a summary of the documented implementation details of the
   - **Packet Sniffer**
   - **Persistence**
   - **Phone**
-  - **Escalate Privilages**
+  - **Escalate Privileges**
   - **Port Scanner**
   - **Process Control**
   - **iCloud**
