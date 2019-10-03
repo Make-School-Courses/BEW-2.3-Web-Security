@@ -1,8 +1,12 @@
 # 📜 Day 12: Payload Generation & Delivery IRL
 
-## ⏱ Agenda
+### ⏱ Agenda
 
-## 🏆 Learning Objectives
+1. [🏆 [5m] Learning Objectives](#%f0%9f%8f%86-5m-learning-objectives)
+2. [📖 [30m] Overview](#%f0%9f%93%96-30m-overview)
+3. [💻 Activity: Hack the Box! 🔪](#%f0%9f%92%bb-activity-hack-the-box-%f0%9f%94%aa)
+
+## 🏆 [5m] Learning Objectives
 
 By the end of this lesson, you should be able to...
 
@@ -11,11 +15,11 @@ By the end of this lesson, you should be able to...
 3. Be able to create your own payloads and deploy payload delivery methods with Metasploit and MSFVenom
 
 
-## 📖 Overview
+## 📖 [30m] Overview
 
 We've learned about building payloads that do all sorts of things once on another persons computer, and we've even already learned a **payload delivery method**, social engineering.  However, this is extremely risky and involves physically being at the site.  Today's lesson introduces **Metasploit**, a framework for both the exploitation of known vulnerabilities and the creation of new exploits themselves.
 
-## Parts of an Attack
+### Parts of an Attack
 
 So what are the ways both professionals and real world hackers get from point A to B?  Well the best hackers are the ones that don't get caught so we don't really know about them, but real auditors, or **pen-testers**, tend to follow some steps when trying to gain access to a system.
 
@@ -61,7 +65,7 @@ and then tell Nmap to scan it
 
 This is the simplest use case for Nmap, but it's capable of a lot.  Check out the website for everything it can do.
 
-## Metasploit
+### Metasploit
 
 ![metasploit_graphic](Lesson12Assets/metasploit_graphic.png)
 
@@ -89,7 +93,7 @@ You'll also see `RHOSTS`, `LHOSTS` in the documentation.  Point the L options to
 
 This should be all it takes to use the primary functionality of Metasploit.
 
-## Installing Metasploit
+### Installing Metasploit
 
 Installation on MacOs is a little weird because it's not built to be run on this system.  We'll need to first enable the root user on our Mac as we'll be operating outside of our user directory and we'll root permissions, but Metasploit can't be `sudo`'d due to how it's build.
 
@@ -99,7 +103,7 @@ Now that we have that set up, lets install metasploit. [This](http://osx.metaspl
 
 Assuming your terminal profile starts from your user directory, you'll need to back out and navigate to `../../opt/metasploit-framework/msfconsole` to start the MSFC.  After you use the root user we enabled earlier with the command `su root`, Metasploit should now be at your fingertips.  Give it a whirl with the commands from earlier!
 
-## MSFVenom and Meterpreter
+### MSFVenom and Meterpreter
 
 **MSFVenom** is a custom payload generator that comes with Metasploit.  It has some ugly syntax, so the best way to learn it is probably to use a [cheatsheet](https://nitesculucian.github.io/2018/07/24/msfvenom-cheat-sheet/) and replace the options.
 
@@ -109,7 +113,7 @@ Venom will output a malicious file that acts based on the payload.  Used in conj
 
 Generally, Metasploit suite is well known, and therefore well defended against because systems can track certain red-flag code (called code signature) and behavior.  While it is updated constantly, you'll need to also pair it with things like [Veil](https://github.com/Veil-Framework/Veil) to stand a chance against modern systems.
 
-## Activity: Hack the Box! 🔪💻
+## 💻 Activity: Hack the Box! 🔪
 
 So we have this cool software, and nothing to ~~legally~~ use it on.  Lucky the same people who made Metasploit knew about this problem and thus **Metasploitable** was born.  **Metasploitable** is a **virtual machine** (mini operating system) that can be run on your computer and used as a practice target for Metasploit.  It has been intentionally left vulnerable to many of the modules and known exploits that Metasploit can abuse.
 
