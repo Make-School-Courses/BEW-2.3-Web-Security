@@ -19,7 +19,7 @@ We've learned about building payloads that do all sorts of things once on anothe
 
 So what are the ways both professionals and real world hackers get from point A to B?  Well the best hackers are the ones that don't get caught so we don't really know about them, but real auditors, or **pen-testers**, tend to follow some steps when trying to gain access to a system.
 
-![attack_steps](lesson_12_assets/attack_steps.png)
+![attack_steps](Lesson12Assets/attack_steps.png)
 
 (all the steps explained below with some other stuff we don't need to worry about now)
 
@@ -63,7 +63,7 @@ This is the simplest use case for Nmap, but it's capable of a lot.  Check out th
 
 ## Metasploit
 
-![metasploit_graphic](lesson_12_assets/metasploit_graphic.png)
+![metasploit_graphic](Lesson12Assets/metasploit_graphic.png)
 
 **Metasploit** by Rapid7 was built for **penetration testing**, or white hat hacking for the sake of finding vulnerabilities before bad actors do. Metasploit comes with software for information gathering, payload delivery, and a CLI payload generator **MSFVenom**.  It also has both preloaded known vulnerabilities and the capability to deliver both those preloads and your very own 0 day exploits.
 
