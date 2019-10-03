@@ -1,4 +1,4 @@
-# 📜 Day 12: Real World: Payload Generation & Delivery
+# 📜 Day 12: Payload Generation & Delivery IRL
 
 ## ⏱ Agenda
 
@@ -7,8 +7,8 @@
 By the end of this lesson, you should be able to...
 
 1. Identify all parts of a basic attack, including payload and method for payload delivery
-1. Navigate and aim Metasploit
-1. Be able to create your own payloads and deploy payload delivery methods with Metasploit and MSFVenom
+2. Navigate and aim Metasploit
+3. Be able to create your own payloads and deploy payload delivery methods with Metasploit and MSFVenom
 
 
 ## 📖 Overview

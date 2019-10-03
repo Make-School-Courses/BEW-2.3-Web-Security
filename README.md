@@ -31,7 +31,7 @@ By the end of the course, you will be able to ...
 | 9/24  |      _Network_       | **[Lesson 9]: Recognize & Refactor Risky Code**          |
 | 9/26  |    _Operational_     | **[Lesson 10]: Defense In Depth**                        |
 | 10/1  |      _Computer_      | **[Lesson 11]: Securing Your Application Server**        |
-| 10/3  |        _Web_         | **[Lesson 12]: Tips, Tricks, & Tools of the Trade**      |
+| 10/3  |        _Web_         | **[Lesson 12]: Payload Generation & Delivery IRL**       |
 | 10/8  |   _Culture / Web_    | **Botnet Project Lab Day & CtF Kickoff**                 |
 | 10/10 |   _**Last Class**_   | **Activity: Capture the Flag Day**                       |
 
