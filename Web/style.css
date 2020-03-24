@@ -1,7 +1,7 @@
 :root {
   --base-font-weight: 400;
   --base-color: white;
-  --base-font-size: 14px;
+  --base-font-size: 15px;
 
   --sidebar-width: 22rem;
   --sidebar-nav-link-before-content: "";
@@ -26,9 +26,13 @@
   --blockquote-font-style: italic;
   --blockquote-font-weight: 500;
 
-  --code-font-size: 1em;
+  --code-font-size: 1.1em;
   --code-font-weight: 500;
   --code-tab-size: 2;
+}
+
+body {
+  font-family: Source Sans Pro, Helvetica Neue, Arial, sans-serif;
 }
 
 .sidebar>h1 {
@@ -40,7 +44,7 @@
 }
 
 .markdown-section {
-  max-width: 840px;
+  max-width: 100%;
 }
 
 .markdown-section a:hover {
@@ -63,7 +67,6 @@
 
 .sidebar ul li a {
   color: #333;
-  font-size: 14px;
   font-weight: 400;
   overflow: hidden;
   text-decoration: none;
@@ -148,4 +151,8 @@ table>tbody>tr>td::before {
 .btn-edit-on-github:hover a {
   text-decoration: none;
   color: white;
+}
+
+.markdown-section pre>code {
+  font-size: 0.9rem;
 }
