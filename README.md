@@ -12,13 +12,15 @@ _This course covers key concepts in internet data security and best practices fo
 
 By the end of the course, you will be able to ...
 
-1. Confidently talk about different types of vulnerabilities within the security space
-2. Defend against  vulnerabilities and attacks
-3. Apply web security best practices to your projects
-4. Understand and utilize adversarial security techniques
-5. Use practical techniques for securing applications and web servers
+1. Confidently talk about different types of vulnerabilities within the security space.
+2. Defend against  vulnerabilities and attacks.
+3. Apply web security best practices to your projects.
+4. Understand and utilize adversarial security techniques.
+5. Use practical techniques for securing applications and web servers.
 
 ## Schedule
+
+_TODO: Update for 2020-T4._
 
 | Date  |  Security Category   | Topic                                                    |
 | :---: | :------------------: | -------------------------------------------------------- |
@@ -37,50 +39,38 @@ By the end of the course, you will be able to ...
 | 10/8  |   _Culture / Web_    | **Project Lab Day / Rubric Review Day**                  |
 | 10/10 |   _**Last Class**_   | **Final Presentations**                                  |
 
-[Lesson 1]: Lessons/Lesson1.md
-[Lesson 2]: Lessons/Lesson2.md
-[Lesson 3]: Lessons/Lesson3.md
-[Lesson 4]: Lessons/Lesson4.md
-[Lesson 5]: Lessons/Lesson5.md
-[Lesson 6]: Lessons/Lesson6.md
-[Lesson 7]: Lessons/Lesson7.md
-[Lesson 8]: Lessons/Lesson8.md
-[Lesson 9]: Lessons/Lesson9.md
-[Lesson 10]: Lessons/Lesson10.md
-[Lesson 11]: Lessons/Lesson11.md
-[Lesson 12]: Lessons/Lesson12.md
-[Lesson 13]: Lessons/Lesson13.md
+[Lesson 1]: Archive/2019-T4/Lessons/Lesson1.md
+[Lesson 2]: Archive/2019-T4/Lessons/Lesson2.md
+[Lesson 3]: Archive/2019-T4/Lessons/Lesson3.md
+[Lesson 4]: Archive/2019-T4/Lessons/Lesson4.md
+[Lesson 5]: Archive/2019-T4/Lessons/Lesson5.md
+[Lesson 6]: Archive/2019-T4/Lessons/Lesson6.md
+[Lesson 7]: Archive/2019-T4/Lessons/Lesson7.md
+[Lesson 8]: Archive/2019-T4/Lessons/Lesson8.md
+[Lesson 9]: Archive/2019-T4/Lessons/Lesson9.md
+[Lesson 10]: Archive/2019-T4/Lessons/Lesson10.md
+[Lesson 11]: Archive/2019-T4/Lessons/Lesson11.md
+[Lesson 12]: Archive/2019-T4/Lessons/Lesson12.md
+[Lesson 13]: Archive/2019-T4/Lessons/Lesson13.md
 
 
 ## Class Assignments
 
 ### Tutorials
 
-<p align="center">
-  <img src="Resources/TutorialGuide.png" alt="Tutorial Guide">
-</p>
-
--  **Complete ANY 20  mini-tutorials on [Hacksplaining](https://www.hacksplaining.com)**
-  - **Challenge**: Finish **both green sections** for homework
-     - **Step 1**: Complete the **Exercise**
-     - **Step 2**: Read the **Prevention** documentation
-     - **Step 3**: Submit a screenshot of the completed activity using [this form]()
-   - **Stretch Challenge**: Complete **all 25 tutorials**
-       - **Prize**: Earn a unique 3d printed hacker badge for completing all tutorials!
-- Quizzes are distributed and completed at the start of class
-
+_TODO: Update for online delivery._
 
 ### Projects
 
-- [Botnet Project](Assignments/Project.md)
-  - [Rubric](Assignments/Rubric.md)
+_TODO: Update for online delivery._
 
 ## Evaluation
+
+_TODO: Update for online delivery._
 
 To pass this course you must meet the following requirements:
 
 - Complete all required [assignments and tutorials](#class-assignments)
-- Pass all projects according to the associated [project rubric](Assignments/Rubric.md)
 - Complete and pass all in-class quizzes
 - Actively participate in class and abide by the attendance policy
 - Make up all classwork from all absences
