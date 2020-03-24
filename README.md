@@ -1,3 +1,8 @@
+<p align="center">
+  <code>WIP: Updates that facilitate online course delivery will be complete on April 6, 2020.</code>
+</p>
+<hr>
+
 # BEW 2.3: Web Security
 
 ## Course Description
