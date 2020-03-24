@@ -2,6 +2,8 @@
 
 ## Course Description
 
+_This course covers key concepts in internet data security and best practices for keeping information safe. Students will examine historical hacks, learn how to analyze websites and web architectures for classical security vulnerabilities, and learn how to defend against security attacks._
+
 ## Prerequisites
 
 - [BEW 1.2](https://make.sc/bew1.2)
