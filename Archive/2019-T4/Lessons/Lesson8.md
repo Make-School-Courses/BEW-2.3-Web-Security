@@ -3,7 +3,7 @@
 ### ⏱ Agenda
 
 1. [🏆 [**5m**] Learning Objectives](#%f0%9f%8f%86-5m-learning-objectives)
-2. [💻 [**20m**] In Class Activity: Dissecting a DDoS](#%f0%9f%92%bb-20m-in-class-activity-dissecting-a-ddos)
+2. [💻 [**20m**] Reading: Dissecting a DDoS](#%f0%9f%92%bb-20m-reading-dissecting-a-ddos)
 3. [📖 [**10m**] Overview: DDoS & Features](#%f0%9f%93%96-10m-overview-ddos--features)
 4. [💻 [**10m**] In Class Activity: Think / Pair / Share](#%f0%9f%92%bb-10m-in-class-activity-think--pair--share)
 5. [📖 [**10m**] Overview: Creating / Using a Botnet](#%f0%9f%93%96-10m-overview-creating--using-a-botnet)
@@ -70,13 +70,15 @@ The most valuable botnets scan for the highest number most relevant system explo
 
 ## 🌴 [**10m**] BREAK
 
-## 💻 [**60m**] Lab Time: Tutorials / Stretch Challenges
+## 💻 [**60m**] Lab Time: Secret Message Assignment / Stretch Challenge
 
-### Lab Time
+### Lab Time: Secret Messages
 
-Use the remainder of the class to work on your Fortinet tutorials.
+Use the remainder of the class to work on your Secret Message assignment. It is due tonight @ 11:59pm on Gradescope!
 
-### Stretch Challenges (Optional)
+If you're done with the assignment, consider the below stretch challenge:
+
+### Stretch Challenge (Optional)
 
 Use the [BYOB Framework](https://github.com/malwaredllc/byob) to build your own botnet in Python.
 
