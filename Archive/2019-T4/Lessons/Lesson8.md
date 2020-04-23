@@ -15,9 +15,8 @@
 ## 🏆 [**5m**] Learning Objectives
 
 1. Gain insight into real world large scale attacks and how to defend against them.
-2. Implement the foundational architecture for your own custom botnet, using the BYOB framework.
 
-## 💻 [**20m**] In Class Activity: Dissecting a DDoS
+## 💻 [**20m**] Reading: Dissecting a DDoS
 
 1. Read this article: [How To Accidentally Stop a Global Cyber Attack](https://www.malwaretech.com/2017/05/how-to-accidentally-stop-a-global-cyber-attacks.html).
 2. **Challenge**: Reverse engineer Marcus Hutchins' solution that prevented the spread of the attack. How did he figure it out?
@@ -71,13 +70,17 @@ The most valuable botnets scan for the highest number most relevant system explo
 
 ## 🌴 [**10m**] BREAK
 
-## 💻 [**60m**] In Class Activity
+## 💻 [**60m**] 
 
-Break into groups of two or three, and get to know the features that the [BYOB Framework](https://github.com/malwaredllc/byob) offers you.
+### Lab Time
 
-Make sure you work with your team to **read and understand the open source code** written for each feature!
+Use the remainder of the class to work on your Fortinet tutorials.
 
-Each team will **Slack a summary of the documented implementation details of their assigned feature, listed below**:
+### Stretch Challenges (Optional)
+
+Use the [BYOB Framework](https://github.com/malwaredllc/byob) to build your own botnet in Python.
+
+### Features
 
 - **[Client](https://github.com/malwaredllc/byob#client)**
 - **[Server](https://github.com/malwaredllc/byob#server)**
@@ -94,13 +97,6 @@ Each team will **Slack a summary of the documented implementation details of the
   - **iCloud**
   - **Spreader**
   - **Miner**
-
-If you finish early, skip ahead to the After Class section!
-
-## 🌃 After Class
-
-1. **Find a Partner**: You may work on the final project with a partner, as long as each of you implement your own feature in the botnet you submit!
-2. **Scope the Project**: Which features will you use in your botnet?
 
 ## 📚 Resources & Credits
 
