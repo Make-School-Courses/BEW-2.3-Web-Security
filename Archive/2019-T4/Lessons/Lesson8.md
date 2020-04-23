@@ -70,7 +70,7 @@ The most valuable botnets scan for the highest number most relevant system explo
 
 ## 🌴 [**10m**] BREAK
 
-## 💻 [**60m**] 
+## 💻 [**60m**] Lab Time: Tutorials / Stretch Challenges
 
 ### Lab Time
 
