@@ -1,14 +1,12 @@
-# 📜 Day 8: Large Scale Attacks, Real World Defenses
+# 📜 Day 8: Large Attacks, Real Defenses
 
 ### ⏱ Agenda
 
 1. [🏆 [**5m**] Learning Objectives](#%f0%9f%8f%86-5m-learning-objectives)
 2. [💻 [**20m**] Reading: Dissecting a DDoS](#%f0%9f%92%bb-20m-reading-dissecting-a-ddos)
-3. [📖 [**10m**] Overview: DDoS & Features](#%f0%9f%93%96-10m-overview-ddos--features)
-4. [💻 [**10m**] In Class Activity: Think / Pair / Share](#%f0%9f%92%bb-10m-in-class-activity-think--pair--share)
-5. [📖 [**10m**] Overview: Creating / Using a Botnet](#%f0%9f%93%96-10m-overview-creating--using-a-botnet)
+3. [📖 [**20m**] Overview: DDoS & Features](#%f0%9f%93%96-10m-overview-ddos--features)
 6. [🌴 [**10m**] BREAK](#%f0%9f%8c%b4-10m-break)
-7. [💻 [**60m**] In Class Activity](#%f0%9f%92%bb-60m-in-class-activity)
+7. [💻 [**60m**] Lab Time](#%f0%9f%92%bb-60m-lab-time)
 8. [🌃 After Class](#%f0%9f%8c%83-after-class)
 9. [📚 Resources & Credits](#%f0%9f%93%9a-resources--credits)
 
@@ -45,12 +43,6 @@ After the software is downloaded, it will **call home** to the host computer. Wh
   - For personal or commercial gain.
 - **Bitcoin mining** in order to generate profits for the operator of the botnet.
 - **Self-spreading functionality** to aim for more infection, is also spotted in several botnets. Some of the botnets are utilizing this function to automate their infections.
-
-## 💻 [**10m**] In Class Activity: Think / Pair / Share
-
-1. **Brainstorm** some features you'll incorporate into your botnet project.
-2. **Choose one or two** that you're interested in implementing.
-3. **Share** that feature with the person next to you and get feedback on it!
 
 ## 📖 [**10m**] Overview: Creating / Using a Botnet
 
