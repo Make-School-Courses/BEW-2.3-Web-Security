@@ -1,8 +1,3 @@
-<p align="center">
-  <code>WIP: Updates that facilitate online course delivery will be complete on April 6, 2020.</code>
-</p>
-<hr>
-
 # BEW 2.3: Web Security
 
 ## Course Description
@@ -15,7 +10,7 @@ _This course covers key concepts in internet data security and best practices fo
 
 ## Learning Outcomes
 
-By the end of the course, you will be able to ...
+By the end of the course, you will be able to&hellip;
 
 1. Confidently talk about different types of vulnerabilities within the security space.
 2. Defend against  vulnerabilities and attacks.
@@ -25,24 +20,27 @@ By the end of the course, you will be able to ...
 
 ## Schedule
 
-_TODO: Update for 2020-T4._
+**Course Dates:** Wednesday, August 19 through Wednesday, October 7, 2020 _(7 weeks)_<br>
+**Class Times:** Monday &amp; Wednesday at 9:30am to 12:15pm _(14 class sessions)_
 
-| Date  |  Security Category   | Topic                                                    |
-| :---: | :------------------: | -------------------------------------------------------- |
-| 8/27  | _Social Engineering_ | **[Lesson 1]: How to Hack a Human**                      |
-| 8/29  |      _Culture_       | **[Lesson 2]: Historic Hacks / Ethical Hacking**         |
-|  9/3  |        _Web_         | **[Lesson 3]: Server-Side Vulnerabilities**              |
-|  9/5  |        _Web_         | **[Lesson 4]: Securing Data: Sanitization & Validation** |
-| 9/10  |        _Web_         | **[Lesson 5]: Client-Side Vulnerabilities**              |
-| 9/12  |    _Operational_     | **[Lesson 6]: You've Been Hacked. What Do?**             |
-| 9/17  |        _Web_         | **[Lesson 7]: Intro to Information Hiding**              |
-| 9/19  |        _Web_         | **[Lesson 8]: Large Scale Attacks, Real World Defenses** |
-| 9/24  |      _Network_       | **Lab Day / Choose Your Own Adventure**                  |
-| 9/26  |    _Operational_     | **[Lesson 10]: Defense In Depth**                        |
-| 10/1  |      _Computer_      | **[Lesson 11]: Securing Your Application Server**        |
-| 10/3  |        _Web_         | **[Lesson 12]: Payload Generation & Delivery IRL**       |
-| 10/8  |   _Culture / Web_    | **Project Lab Day / Rubric Review Day**                  |
-| 10/10 |   _**Last Class**_   | **Final Presentations**                                  |
+| Class |          Date          |  Security Category   | Topic                                                    |
+|:-----:|:----------------------:| :------------------: | -------------------------------------------------------- |
+|  1 |  Wed, Aug 19               | _Social Engineering_ | **[Lesson 1]: How to Hack a Human**                      |
+|  2 |  Mon, Aug 24               |      _Culture_       | **[Lesson 2]: Historic Hacks / Ethical Hacking**         |
+|  3 |  Wed, Aug 26               |        _Web_         | **[Lesson 3]: Server-Side Vulnerabilities**              |
+|  4 |  Mon, Aug 31               |        _Web_         | **[Lesson 4]: Securing Data: Sanitization & Validation** |
+|  5 |  Wed, Sept 2                |        _Web_         | **[Lesson 5]: Client-Side Vulnerabilities**              |
+|  - |  Mon, Sept 7               | - | **Holiday - Labor Day** |
+|  6 |  Wed, Sept 9                |    _Operational_     | **[Lesson 6]: You've Been Hacked. What Do?**             |
+|  7 |  Mon, Sept 14              |        _Web_         | **[Lesson 7]: Intro to Information Hiding**              |
+|  8 |  Wed, Sept 16              |        _Web_         | **[Lesson 8]: Large Scale Attacks, Real World Defenses** |
+|  9 |  Mon, Sept 21              |      _Network_       | **Lab Day / Choose Your Own Adventure**                  |
+| 10 |  Wed, Sept 23              |    _Operational_     | **[Lesson 10]: Defense In Depth**                        |
+| 11 |  Mon, Sept 28               |      _Computer_      | **[Lesson 11]: Securing Your Application Server**        |
+| 12 |  Wed, Sept 30              |   _Culture / Web_    | **Project Lab Day / Rubric Review Day**                  |
+| 13 |  Mon, Oct 5                | - | TBD |
+| 14 |  Wed, Oct 7                | - | 1-1 Interview with Instructor |
+
 
 [Lesson 1]: Archive/2019-T4/Lessons/Lesson1.md
 [Lesson 2]: Archive/2019-T4/Lessons/Lesson2.md
@@ -58,20 +56,17 @@ _TODO: Update for 2020-T4._
 [Lesson 12]: Archive/2019-T4/Lessons/Lesson12.md
 [Lesson 13]: Archive/2019-T4/Lessons/Lesson13.md
 
-
 ## Class Assignments
 
 ### Tutorials
 
-_TODO: Update for online delivery._
+_TODO: Update for 2020-T1._
 
-### Projects
+### Assignments
 
-_TODO: Update for online delivery._
+_TODO: Update for 2020-T1._
 
 ## Evaluation
-
-_TODO: Update for online delivery._
 
 To pass this course you must meet the following requirements:
 
