@@ -1,3 +1,7 @@
+<p align="center">
+   <img src="banner.png" height="320" alt="BEW 2.3 @ Make School">
+</p>
+
 # BEW 2.3: Web Security
 
 ## Course Description
