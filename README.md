@@ -41,22 +41,11 @@ By the end of the course, you will be able to&hellip;
 | 13 |  Mon, Oct 5                | - | TBD |
 | 14 |  Wed, Oct 7                | - | 1-1 Interview with Instructor |
 
-
-[Lesson 1]: Archive/2019-T4/Lessons/Lesson1.md
-[Lesson 2]: Archive/2019-T4/Lessons/Lesson2.md
-[Lesson 3]: Archive/2019-T4/Lessons/Lesson3.md
-[Lesson 4]: Archive/2019-T4/Lessons/Lesson4.md
-[Lesson 5]: Archive/2019-T4/Lessons/Lesson5.md
-[Lesson 6]: Archive/2019-T4/Lessons/Lesson6.md
-[Lesson 7]: Archive/2019-T4/Lessons/Lesson7.md
-[Lesson 8]: Archive/2019-T4/Lessons/Lesson8.md
-[Lesson 9]: Archive/2019-T4/Lessons/Lesson9.md
-[Lesson 10]: Archive/2019-T4/Lessons/Lesson10.md
-[Lesson 11]: Archive/2019-T4/Lessons/Lesson11.md
-[Lesson 12]: Archive/2019-T4/Lessons/Lesson12.md
-[Lesson 13]: Archive/2019-T4/Lessons/Lesson13.md
-
 ## Class Assignments
+
+We will be using [Gradescope] this term, which allows us to provide fast and accurate feedback on your work. All assigned work will be submitted through [Gradescope], and assignment and exam grades will be returned through [Gradescope]. As soon as grades are posted, you will be notified immediately so that you can log in and see your feedback. You may also submit regrade requests if you feel we have made a mistake.
+
+Your [Gradescope] login is your Make School email, and your password can be changed at [https://gradescope.com/reset_password](https://gradescope.com/reset_password). The same link can be used if you need to set your password for the first time.
 
 ### Tutorials
 
@@ -85,3 +74,18 @@ To pass this course you must meet the following requirements:
 - [Course Credit Policy](https://make.sc/course-credit-policy) - Our policy for how you obtain credit for your courses
 - [Disability Services (Academic Accommodations)](https://make.sc/disability-services) - Services and accommodations we provide for students
 - [Student Handbook](https://make.sc/student-handbook) - Guidelines, policies, and resources for all Make School students
+
+[Gradescope]: https:/make.sc/bew2.3-gradescope
+[Lesson 1]: Archive/2019-T4/Lessons/Lesson1.md
+[Lesson 2]: Archive/2019-T4/Lessons/Lesson2.md
+[Lesson 3]: Archive/2019-T4/Lessons/Lesson3.md
+[Lesson 4]: Archive/2019-T4/Lessons/Lesson4.md
+[Lesson 5]: Archive/2019-T4/Lessons/Lesson5.md
+[Lesson 6]: Archive/2019-T4/Lessons/Lesson6.md
+[Lesson 7]: Archive/2019-T4/Lessons/Lesson7.md
+[Lesson 8]: Archive/2019-T4/Lessons/Lesson8.md
+[Lesson 9]: Archive/2019-T4/Lessons/Lesson9.md
+[Lesson 10]: Archive/2019-T4/Lessons/Lesson10.md
+[Lesson 11]: Archive/2019-T4/Lessons/Lesson11.md
+[Lesson 12]: Archive/2019-T4/Lessons/Lesson12.md
+[Lesson 13]: Archive/2019-T4/Lessons/Lesson13.md
