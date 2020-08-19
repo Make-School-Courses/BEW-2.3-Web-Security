@@ -66,6 +66,7 @@ To pass this course you must meet the following requirements:
 
 - The certificate earned at the end of each tutorial must be turned in on [Gradescope].
 - Complete and pass all in class challenges and assignments on [Gradescope].
+- Attend and pass a final Course Reflection interview with the instructor.
 - Actively participate in class and abide by the attendance policy.
 - Make up all classwork from all absences.
 
