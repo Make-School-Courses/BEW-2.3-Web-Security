@@ -53,20 +53,21 @@ Your [Gradescope] login is your Make School email, and your password can be chan
 
 ### Tutorials
 
-_TODO: Update for 2020-T1._
+- [**NSE 1**: The Threat Landscape](https://training.fortinet.com/course/view.php?id=1406)
+- [**NSE 2**: The Evolution of Cybersecurity](https://training.fortinet.com/course/view.php?id=2271)
 
 ### Assignments
 
-_TODO: Update for 2020-T1._
+- See assignment list on [Gradescope].
 
 ## Evaluation
 
 To pass this course you must meet the following requirements:
 
-- Complete all required [assignments and tutorials](#class-assignments)
-- Complete and pass all in-class quizzes
-- Actively participate in class and abide by the attendance policy
-- Make up all classwork from all absences
+- The certificate earned at the end of each tutorial must be turned in on [Gradescope].
+- Complete and pass all in class challenges and assignments on [Gradescope].
+- Actively participate in class and abide by the attendance policy.
+- Make up all classwork from all absences.
 
 ## Make School Course Policies
 

@@ -1,3 +1,3 @@
 - **[Syllabus](README.md)**
-- **[Gradescope](https://www.gradescope.com/courses/105215)**
+- **[Gradescope](https://make.sc/bew2.3-gradescope)**
 - **[Lessons](README.md#Schedule)**
