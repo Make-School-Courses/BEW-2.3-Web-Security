@@ -5,7 +5,7 @@
 1. [[**5m**] 🏆 Learning Objectives](#5m-%f0%9f%8f%86-learning-objectives)
 2. [[**15m**] 💻 **Demo**: Jinja2 SSTI Activity Review](#15m-%f0%9f%92%bb-demo-jinja2-ssti-activity-review)
 3. [[**10m**] 📖 **Overview**: Client-Side Attacks](#10m-%f0%9f%93%96-overview-client-side-attacks)
-4. [[**15m**] 💻 **Activity**: Try Out XSS](#15m-%f0%9f%92%bb-activity-try-out-xss)
+4. [[**30m**] 💻 **Activity**: Try Out XSS](#15m-%f0%9f%92%bb-activity-try-out-xss)
 5. [[**10m**] 🌴 BREAK](#10m-%f0%9f%8c%b4-break)
 6. [[**45m**] 💻 **Activity**: The XSS Games](#45m-%f0%9f%92%bb-activity-the-xss-games)
 7. [[**20m**] 📖 **Overview**: Client-Side Defense](#20m-%f0%9f%93%96-overview-client-side-defense)
@@ -74,11 +74,9 @@ This can include:
 - Clickjacking
 - Autofill/Keychain Data
 
-## [**15m**] 💻 **Activity**: Try Out XSS
+## [**30m**] 💻 **Activity**: Try Out XSS
 
-Remember that [Dev-Ops Security App](https://github.com/Make-School-Courses/DevOps-Security-App)? Open that back up and let's try out an XSS attack/defense with it.
-
-Follow the instructions on the [How To Exploit](https://github.com/Make-School-Courses/DevOps-Security-App/blob/master/HOW-TO-EXPLOIT.md#xss) guide for XSS.
+Work on [Hacksplaining: Cross Site Scripting](https://www.hacksplaining.com/exercises/xss-stored) in breakout groups.
 
 ## [**10m**] 🌴 BREAK
 
