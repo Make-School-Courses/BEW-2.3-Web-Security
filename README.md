@@ -16,6 +16,12 @@ _This course covers key concepts in internet data security and best practices fo
 
 - [BEW 1.2](https://make.sc/bew1.2)
 
+## Course Specifics
+
+**Course Delivery**: online | 7 weeks | 14 sessions
+
+**Course Credits**: 3 units | 37.5 Seat Hours | 75 Total Hours
+
 ## Learning Outcomes
 
 By the end of the course, you will be able to&hellip;
@@ -71,6 +77,12 @@ To pass this course you must meet the following requirements:
 - Attend and pass a final Course Reflection interview with the instructor.
 - Actively participate in class and abide by the attendance policy.
 - Make up all classwork from all absences.
+
+## Information Resources
+
+Any additional resources you may need (online books, etc.) can be found here. You can also find additional resources through the library linked below:
+
+- [make.sc/library](http://make.sc/library)
 
 ## Make School Course Policies
 
