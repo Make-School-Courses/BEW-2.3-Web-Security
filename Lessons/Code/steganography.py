@@ -25,9 +25,7 @@ def decode_image(path_to_png):
 
     # TODO: Replace `print(red_channel)` below with a complete implementation:
     # The variables below, x_size and y_size, are provided to assist you.
-    x_size = encoded_image.size[0]
-    y_size = encoded_image.size[1]
-
+    x_size, y_size = encoded_image.size
     print(red_channel)  # TODO: Replace me --- start coding here!
 
     # DO NOT MODIFY. Save the decoded image to disk:
