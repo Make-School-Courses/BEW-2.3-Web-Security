@@ -8,6 +8,7 @@ Deliverables:
     2. Decoded sample image with secret text revealed
     3. Your own image encoded with hidden secret text!
 """
+# TODO: Run `pip3 install Pillow` before running the code.
 from PIL import Image
 
 
@@ -22,7 +23,7 @@ def decode_image(path_to_png):
     decoded_image = Image.new("RGB", encoded_image.size)
     pixels = decoded_image.load()
 
-    # TODO: Complete the implementation:
+    # TODO: Replace `print(red_channel)` below with a complete implementation:
     # The variables below, x_size and y_size, are provided to assist you.
     x_size = encoded_image.size[0]
     y_size = encoded_image.size[1]
