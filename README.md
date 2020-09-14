@@ -102,5 +102,5 @@ Any additional resources you may need (online books, etc.) can be found here. Yo
 [Lesson 4]: Lessons/Sanitization.md
 [Lesson 5]: Lessons/ClientSideExploits.md
 [Lesson 6]: Lessons/IncidentResponse.md
-[Lesson 7]: Lessons/Steganography.md
+[Lesson 7]: Lessons/Cryptography.md
 [Lesson 8]: Lessons/DDoS.md
