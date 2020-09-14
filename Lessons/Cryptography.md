@@ -7,7 +7,7 @@
 - [[**25m**] ☀️ Warm Up: Caesar Cypher Interview Practice](#25m-%e2%98%80%ef%b8%8f-warm-up-caesar-cypher-interview-practice)
 - [[**05m**] TT: Hiding Secrets in Text](#05m-%f0%9f%93%96-tt-hiding-secrets-in-text)
 - [[**10m**] 💻 Activity: Create Cryptograms](#10m-%f0%9f%92%bb-activity-create-cryptograms)
-- [[**15m**] 💻 Activity: Crush Cryptograms](#15m-%f0%9f%92%bb-activity-crush-cryptograms)
+- [[**25m**] 💻 Activity: Crush Cryptograms](#25m-%f0%9f%92%bb-activity-crush-cryptograms)
 - [[**10m**] 🌴 BREAK](#10m-%f0%9f%8c%b4-break-docsify-ignore)
 - [[**20m**] 📖 TT: Hiding Secrets in Images](#20m-%f0%9f%93%96-tt-hiding-secrets-in-images)
 - [[**35m**] 💻 Activity: Decoding a Secret Message](#35m-%f0%9f%92%bb-activity-decoding-a-secret-message)
@@ -55,12 +55,13 @@ For an example of cryptograms in literature, check out Edgar Allan Poe's [The Go
 
 <!-- > -->
 
-## [**15m**] 💻 Activity: Crush Cryptograms
+## [**25m**] 💻 Activity: Crush Cryptograms
 
+1. Watch [this video](https://youtu.be/5y9THLG94SU) that teaches you how to solve cryptograms. _(7 minutes)_
 1. Try at **least two cryptograms posted** in the channel.
-2. **Did you solve a puzzle**?<br>➡️ _DM the creator and tell them your solution_.
-3. **Was your puzzle solved**?<br>➡️ _Add a new emoji for each correct solution on the post containing your puzzle._
-4. **Really stuck**?<br>➡️ _Try [QuipQiup](https://quipqiup.com), a fast and automated cryptogram solver_.
+1. **Did you solve a puzzle**?<br>➡️ _DM the creator and tell them your solution_.
+1. **Was your puzzle solved**?<br>➡️ _Add a new emoji for each correct solution on the post containing your puzzle._
+1, **Really stuck**?<br>➡️ _Try [QuipQiup](https://quipqiup.com), a fast and automated cryptogram solver_.
 
 <!-- > -->
 
