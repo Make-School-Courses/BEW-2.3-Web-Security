@@ -1,17 +1,14 @@
 """
 [Day 7] Assignment: Steganography
-  Turn in on Gradescope (https://make.sc/bew2.3-gradescope)
-
-Lesson Plan:
-  https://make-school-courses.github.io/BEW-2.3-Web-Security/#/Lessons/Steganography
+    - Turn in on Gradescope (https://make.sc/bew2.3-gradescope)
+    - Lesson Plan: https://make-school-courses.github.io/BEW-2.3-Web-Security/#/Lessons/Steganography
 
 Deliverables:
-  1. All TODOs in this file.
-  2. Decoded sample image with secret text revealed
-  3. Your own image encoded with hidden secret text!
+    1. All TODOs in this file.
+    2. Decoded sample image with secret text revealed
+    3. Your own image encoded with hidden secret text!
 """
 from PIL import Image
-https: // github.com/Make-School-Courses/BEW-2.3-Web-Security/blob/master/Assets/encoded_sample.png
 
 
 def decode_image(path_to_png):
