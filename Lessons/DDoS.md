@@ -1,4 +1,4 @@
-# 📜 Day 8: Large Attacks, Real Defenses
+# 📜 Day 10: Large Attacks, Real Defenses
 
 ### ⏱ Agenda
 
