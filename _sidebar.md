@@ -6,4 +6,4 @@
 - [Day 5: Client Side Exploits](Lessons/ClientSideExploits.md)
 - [Day 6: Incident Response](Lessons/IncidentResponse.md)
 - [Day 7: Information Hiding](Lessons/Steganography.md)
-- [Day 8: DDoS](Lessons/DDoS.md))
+- [Day 8: DDoS](Lessons/DDoS.md)
