@@ -1,4 +1,4 @@
-# 📜 Day 7: Intro to Information Hiding
+# 📜 Day 7: Intro to Cryptography
 
 <!-- omit in toc -->
 ## ⏱ Agenda {docsify-ignore}
@@ -16,18 +16,54 @@
 
 ## [**02m**] 🏆 Objectives
 
-|   Level   | Verbs |
-| --------- | ----- |
-| 6: Create | design, formulate, build, invent, create, compose, generate, derive, modify, develop |
-| 5: Evaluate | choose, support, relate, determine, defend, compare, contrast, justify, support, convince, select |
-| 4: Analyze | classify, break down, categorize, analyze, diagram, illustrate, criticize, simplify, associate |
-| 3: Apply | calculate, predict, apply, solve, illustrate, use, demonstrate, determine, model, perform, present |
-| 2: Understand | describe, explain, paraphrase, restate, summarize, contrast, interpret, discuss |
-| 1: Remember | list, recite, outline, define, name, match, quote, recall, identify, label, recognize |
+1. Practice interview skills and substitution cyphers via HackerRank.
+2. Create and solve text-based cryptograms puzzles by hand.
+3. Build a project in Python that encodes and decodes hidden text within an image using a technique called steganography.
 
 <!-- > -->
 
-## [**30m**] 📖 Overview
+## [**20m**] 💪 Level Up: Ceaser Cypher Interview Practice
+
+[Caesar Cipher](https://www.hackerrank.com/challenges/caesar-cipher-1/problem ':include :type=iframe width=100% height=600px')
+
+<!-- > -->
+
+## [**05m**] ☀️ Quick! Quote
+
+Find your favorite quote and copy it to your clipboard. Don't share it with anyone!
+
+**⭐️ Done? Select ✅ in the participants panel to indicate you've finished this activity.**
+
+## [**05m**] TT: Cryptograms
+
+<!-- > -->
+
+A cryptogram is a puzzle that consists of a short piece of encrypted text. Most cryptograms can be solved by hand using a Substitution Cypher: replacing each letter with a different letter or number, until the source text is decrypted.
+
+For an example of cryptograms in literature, check out Edgar Allan Poe's The Gold Bug. A character named Mr. Legrand teaches you how to solve cryptograms and ciphers by looking at the patterns of characters. 
+
+<!-- > -->
+
+## [**05m**] 💻 Activity: Create Cryptograms
+
+1. Watch this video that teaches you how to solve cryptograms: https://youtu.be/5y9THLG94SU (7 minutes)
+2. Visit https://markknowsnothing.weebly.com/cryptogramcreator.html and paste your quote in the text area 
+3. Share your cryptogram in Slack.
+
+<!-- > -->
+
+## [**10m**] 💻 Activity: Crush Cryptograms
+
+1. Try at least two cryptograms posted in the channel
+2. Did you solve a puzzle? DM the creator and tell them your solution.
+3. Was your puzzle solved? Add a new emoji for each correct solution on the post containing your puzzle.
+4. Really stuck? Try [QuipQiup](https://quipqiup.com), a fast and automated cryptogram solver.
+
+<!-- > -->
+
+## [**30m**] 📖 TT: Steganography 
+
+<!-- > -->
 
 ### What is Steganography?
 
@@ -45,7 +81,9 @@ Secret inside
 
 ...if you take the first letter of every word.
 
- Steganography is really handy to use, because people won’t even suspect that they’re looking at a secret message &mdash; making it less likely that they’ll want to try to crack your code. In the past, you may have created hidden messages using invisible ink, or using special keywords with your friends. However, as fearless coders, we have access to fancier ways to sneak data around.
+Steganography is really handy to use, because people won’t even suspect that they’re looking at a secret message &mdash; making it less likely that they’ll want to try to crack your code. In the past, you may have created hidden messages using invisible ink, or using special keywords with your friends. However, as fearless coders, we have access to fancier ways to sneak data around.
+
+<!-- > -->
 
 ### The Value of One Pixel
 
@@ -91,6 +129,8 @@ Additionally, since changing the LSB doesn’t drastically change the overall va
 
 The concept of MSB and LSB occurs in other contexts as well. For example, [parity bits](https://en.wikipedia.org/wiki/Parity_bit) are used as a basic form of error checking. Additionally, because the LSBs will change rapidly even if the value of the bit changes a little, they are very useful for use in [hash functions](https://en.wikipedia.org/wiki/Hash_function) and [checksums](https://en.wikipedia.org/wiki/Checksum) for validation purposes.
 
+<!-- > -->
+
 ### Decoding the Sample Image
 
 Provided in this toolbox is a picture of a cute dog. However, this dog is hiding a very secret message… can you decode it? This image is also included in the toolbox under `images/encoded_sample.png`.
@@ -123,14 +163,11 @@ def decode_image(path_to_png):
 
 <!-- > -->
 
-
-<!-- > -->
-
 ## [**10m**] 🌴 BREAK {docsify-ignore}
 
 <!-- > -->
 
-## [**45m**] 💻 Activity: Decoding a Hidden Message
+## [**35m**] 💻 Activity: Decoding a Hidden Message
 
 In this activity, you will delve a bit deeper into the specifics of how images are created in addition to learning more about bits and binary math.
 
@@ -159,7 +196,7 @@ You will need three things to complete this assignment:
 
 <!-- > -->
 
-## [**45m**] 💻 Activity: Encoding a Secret Message
+## [**35m**] 💻 Activity: Encoding a Secret Message
 
 Now that we can decode secret messages, it’s only natural that we want to encode some too! Provided in the starter code are a pair of functions called `write_text()` and `encode_image()`. `write_text()` will take a string and convert it to a black and white image of the string. You may use it as a helper function in completing your implementation of `encode_image()`.
 
