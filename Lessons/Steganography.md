@@ -131,7 +131,7 @@ In this activity, you will delve a bit deeper into the specifics of how images a
 
 ### Starter Code
 
-Duplicate the starter code found [here](Lessons/Code/steganography.py) to get started.
+Duplicate the starter code found [here](https://raw.githubusercontent.com/Make-School-Courses/BEW-2.3-Web-Security/master/Lessons/Code/steganography.py) to get started.
 
 <!-- > -->
 
