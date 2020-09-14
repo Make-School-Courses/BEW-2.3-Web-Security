@@ -4,14 +4,16 @@
 ## ⏱ Agenda {docsify-ignore}
 
 - [[**02m**] 🏆 Objectives](#02m-%f0%9f%8f%86-objectives)
-- [[**30m**] 📖 Overview](#30m-%f0%9f%93%96-overview)
+- [[**25m**] ☀️ Warm Up: Caesar Cypher Interview Practice](#25m-%e2%98%80%ef%b8%8f-warm-up-caesar-cypher-interview-practice)
+- [[**05m**] TT: Hiding Secrets in Text](#05m-%f0%9f%93%96-tt-hiding-secrets-in-text)
+- [[**10m**] 💻 Activity: Create Cryptograms](#10m-%f0%9f%92%bb-activity-create-cryptograms)
+- [[**15m**] 💻 Activity: Crush Cryptograms](#15m-%f0%9f%92%bb-activity-crush-cryptograms)
 - [[**10m**] 🌴 BREAK](#10m-%f0%9f%8c%b4-break-docsify-ignore)
-- [[**45m**] 💻 Activity: Decoding a Hidden Message](#45m-%f0%9f%92%bb-activity-decoding-a-hidden-message)
-- [[**10m**] 🌴 BREAK](#10m-%f0%9f%8c%b4-break-docsify-ignore-1)
-- [[**45m**] 💻 Activity: Encoding a Secret Message](#45m-%f0%9f%92%bb-activity-encoding-a-secret-message)
+- [[**20m**] 📖 TT: Hiding Secrets in Images](#20m-%f0%9f%93%96-tt-hiding-secrets-in-images)
+- [[**35m**] 💻 Activity: Decoding a Secret Message](#35m-%f0%9f%92%bb-activity-decoding-a-secret-message)
+- [[**35m**] 💻 Activity: Encoding a Secret Message](#35m-%f0%9f%92%bb-activity-encoding-a-secret-message)
 - [[**03m**] 🌃 After Class](#03m-%f0%9f%8c%83-after-class)
 - [📚 Resources & Credits](#%f0%9f%93%9a-resources--credits)
-
 <!-- > -->
 
 ## [**02m**] 🏆 Objectives
@@ -22,52 +24,53 @@
 
 <!-- > -->
 
-## [**20m**] 💪 Level Up: Ceaser Cypher Interview Practice
+## [**25m**] ☀️ Warm Up: Caesar Cypher Interview Practice
 
-[Caesar Cipher](https://www.hackerrank.com/challenges/caesar-cipher-1/problem ':include :type=iframe width=100% height=600px')
-
-<!-- > -->
-
-## [**05m**] ☀️ Quick! Quote
-
-Find your favorite quote and copy it to your clipboard. Don't share it with anyone!
-
-**⭐️ Done? Select ✅ in the participants panel to indicate you've finished this activity.**
-
-## [**05m**] TT: Cryptograms
+Work on the [Caesar Cipher](https://www.hackerrank.com/challenges/caesar-cipher-1/problem ':include :type=iframe width=100% height=600px') interview coding problem on HackerRank.
 
 <!-- > -->
 
-A cryptogram is a puzzle that consists of a short piece of encrypted text. Most cryptograms can be solved by hand using a Substitution Cypher: replacing each letter with a different letter or number, until the source text is decrypted.
-
-For an example of cryptograms in literature, check out Edgar Allan Poe's The Gold Bug. A character named Mr. Legrand teaches you how to solve cryptograms and ciphers by looking at the patterns of characters. 
+## [**05m**] 📖 TT: Hiding Secrets in Text
 
 <!-- > -->
 
-## [**05m**] 💻 Activity: Create Cryptograms
+A **cryptogram** is a **puzzle that consists of a short piece of encrypted text**.
 
-1. Watch this video that teaches you how to solve cryptograms: https://youtu.be/5y9THLG94SU (7 minutes)
-2. Visit https://markknowsnothing.weebly.com/cryptogramcreator.html and paste your quote in the text area 
-3. Share your cryptogram in Slack.
+Most cryptograms can be solved by hand using a Substitution Cypher, like the Caesar cypher we warmed up with at the start of class today: these cyphers all replace each letter with a different letter or number until the source text is hidden.
 
-<!-- > -->
-
-## [**10m**] 💻 Activity: Crush Cryptograms
-
-1. Try at least two cryptograms posted in the channel
-2. Did you solve a puzzle? DM the creator and tell them your solution.
-3. Was your puzzle solved? Add a new emoji for each correct solution on the post containing your puzzle.
-4. Really stuck? Try [QuipQiup](https://quipqiup.com), a fast and automated cryptogram solver.
+For an example of cryptograms in literature, check out Edgar Allan Poe's [The Gold Bug](https://poestories.com/read/goldbug#cryptogram). A character named Mr. Legrand teaches you how to solve cryptograms and ciphers by looking at the patterns of characters.
 
 <!-- > -->
 
-## [**30m**] 📖 TT: Steganography 
+## [**10m**] 💻 Activity: Create Cryptograms
+
+1. Copy your **favorite quote** to your clipboard. _Don't share it with anyone!_
+1. **Visit** the [Cryptogram Creator](https://markknowsnothing.weebly.com/cryptogramcreator.html)
+1. **Paste your quote** in the text area. _Use image below for reference_:
+
+    ![cryptogram](https://raw.githubusercontent.com/Make-School-Courses/BEW-2.3-Web-Security/master/Lessons/Assets/cryptogram.jpeg)
+
+1. **Open Slack**
+1. Share your cryptogram in Slack.
 
 <!-- > -->
 
-### What is Steganography?
+## [**15m**] 💻 Activity: Crush Cryptograms
 
-In a nutshell, the main goal of [steganography](https://en.wikipedia.org/wiki/Steganography) is to **hide information within data that doesn’t appear to be secret at a glance**. For example, this sentence:
+1. Try at **least two cryptograms posted** in the channel.
+2. **Did you solve a puzzle**?<br>➡️ _DM the creator and tell them your solution_.
+3. **Was your puzzle solved**?<br>➡️ _Add a new emoji for each correct solution on the post containing your puzzle._
+4. **Really stuck**?<br>➡️ _Try [QuipQiup](https://quipqiup.com), a fast and automated cryptogram solver_.
+
+<!-- > -->
+
+## [**10m**] 🌴 BREAK {docsify-ignore}
+
+<!-- > -->
+
+## [**20m**] 📖 TT: Hiding Secrets in Images
+
+The main goal of [steganography](https://en.wikipedia.org/wiki/Steganography) is to **hide information within data that doesn’t appear to be secret at a glance**. For example, this sentence:
 
 ```txt
 Since everyone can read, encoding text in neutral sentences is definitely effective
@@ -163,11 +166,7 @@ def decode_image(path_to_png):
 
 <!-- > -->
 
-## [**10m**] 🌴 BREAK {docsify-ignore}
-
-<!-- > -->
-
-## [**35m**] 💻 Activity: Decoding a Hidden Message
+## [**35m**] 💻 Activity: Decoding a Secret Message
 
 In this activity, you will delve a bit deeper into the specifics of how images are created in addition to learning more about bits and binary math.
 
@@ -189,10 +188,6 @@ You will need three things to complete this assignment:
 2. Completed `steganography.py` code
 3. Decoded image obtained from `sample.png`
 4. A sample image with some encoded message in it from your `encode_image()` function
-
-<!-- > -->
-
-## [**10m**] 🌴 BREAK {docsify-ignore}
 
 <!-- > -->
 
