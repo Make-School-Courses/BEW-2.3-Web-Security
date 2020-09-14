@@ -1,8 +1,31 @@
 # 📜 Day 7: Intro to Information Hiding
 
-In this activity, you will delve a bit deeper into the specifics of how images are created in addition to learning more about bits and binary math.
+<!-- omit in toc -->
+## ⏱ Agenda {docsify-ignore}
 
-**This activity was modified from [Interactive Python](http://interactivepython.org/runestone/static/everyday/2013/03/1_steganography.html), though this version encodes an image into another image instead of ASCII text.**
+1. [[**00m**] 🏆 Objectives](#00m-%f0%9f%8f%86-objectives)
+2. [[**00m**] 📖 Overview](#00m-%f0%9f%93%96-overview)
+4. [[**00m**] 💻 Activity](#00m-%f0%9f%92%bb-activity)
+5. [[**10m**] 🌴 BREAK {docsify-ignore}](#10m-%f0%9f%8c%b4-break)
+6. [🌃 After Class](#%f0%9f%8c%83-after-class)
+7. [📚 Resources & Credits](#%f0%9f%93%9a-resources--credits)
+
+<!-- > -->
+
+## [**00m**] 🏆 Objectives
+
+|   Level   | Verbs |
+| --------- | ----- |
+| 6: Create | design, formulate, build, invent, create, compose, generate, derive, modify, develop |
+| 5: Evaluate | choose, support, relate, determine, defend, compare, contrast, justify, support, convince, select |
+| 4: Analyze | classify, break down, categorize, analyze, diagram, illustrate, criticize, simplify, associate |
+| 3: Apply | calculate, predict, apply, solve, illustrate, use, demonstrate, determine, model, perform, present |
+| 2: Understand | describe, explain, paraphrase, restate, summarize, contrast, interpret, discuss |
+| 1: Remember | list, recite, outline, define, name, match, quote, recall, identify, label, recognize |
+
+<!-- > -->
+
+## [**00m**] 📖 Overview
 
 ## What is Steganography?
 
@@ -70,39 +93,49 @@ The concept of MSB and LSB occurs in other contexts as well. For example, [parit
 
 Provided in this toolbox is a picture of a cute dog. However, this dog is hiding a very secret message… can you decode it? This image is also included in the toolbox under `images/encoded_sample.png`.
 
-![img](https://sd18spring.github.io/images/toolboxes/image-steganography/encoded_sample.png)
+![Sample encoded image](Assets/encoded_sample.png)
 
-**Provided below is the starter code is a function called `decode_image`. The secret image was hidden in the LSB of the pixels in the red channel of the image. That is, the value of the LSB of each red pixel is 1 if the hidden image was 1 at that location, and 0 if the hidden image was also 0. Your task is to iterate though each pixel in the encoded image and set the `decode_image` pixel to be `(0, 0, 0)` or `(255, 255, 255`) depending on the value of that LSB.**
+Provided below is the starter code is a function called `decode_image`. The secret image was hidden in the LSB of the pixels in the red channel of the image. That is, the value of the LSB of each red pixel is 1 if the hidden image was 1 at that location, and 0 if the hidden image was also 0. Your task is to iterate though each pixel in the encoded image and set the `decode_image` pixel to be `(0, 0, 0)` or `(255, 255, 255`) depending on the value of that LSB.
 
-**You may want to look at the Python [bin](https://docs.python.org/3/library/functions.html#bin) function as you convert between integer and binary**. Remember that bin will convert an integer to a *binary string*. Also, remember that you have to isolate the `red_channel` from the original RGB image. You can do this using the `.split()` method that PIL provides.
+**You may want to look at the Python [bin](https://docs.python.org/3/library/functions.html#bin) function as you convert between integer and binary**.
+
+Remember that `bin` will convert an integer to a *binary string*. Also, remember that you have to isolate the `red_channel` from the original RGB image. You can do this using the `.split()` method that PIL provides.
 
 ```python
 from PIL import Image
 
-def decode_image(file_location):
-    encoded_image = Image.open(file_location)
-    red_channel = encoded_image.split()[0]
 
-    x_size = encoded_image.size[0]
-    y_size = encoded_image.size[1]
+def decode_image(path_to_png):
+    encoded_image = Image.open(path_to_png)
+    red_channel = encoded_image.split()[0]
 
     decoded_image = Image.new("RGB", encoded_image.size)
     pixels = decoded_image.load()
 
-    #TODO: Fill in decoding functionality
-
-    print(red_channel)
+    # TODO: Fill in decoding functionality below:
 
     decoded_image.save("decoded_image.png")
 ```
 
 - Note that files in this example are `.png` files. We recommend that you avoid working with `.jpg` files so that file compression does not make your task more difficult.
 
-## Encoding a Secret Message
+<!-- > -->
 
-Now that we can decode secret messages, it’s only natural that we want to encode some too! Provided in the starter code are a pair of functions called `write_text()` and `encode_image()`. `write_text()` will take a string and convert it to a black and white image of the string. You may use it as a helper function in completing your implementation of `encode_image()`.
+## [**60m**] 💻 Activity: Decoding a Hidden Message
 
-## Completing the Assignment
+In this activity, you will delve a bit deeper into the specifics of how images are created in addition to learning more about bits and binary math.
+
+**This activity was modified from [Interactive Python](http://interactivepython.org/runestone/static/everyday/2013/03/1_steganography.html), though this version encodes an image into another image instead of ASCII text.**
+
+<!-- > -->
+
+### Starter Code
+
+Duplicate the starter code found [here](Lessons/Code/steganography.py) to get started.
+
+<!-- > -->
+
+### Completing the Assignment
 
 You will need three things to complete this assignment:
 
@@ -111,4 +144,27 @@ You will need three things to complete this assignment:
 3. Decoded image obtained from `sample.png`
 4. A sample image with some encoded message in it from your `encode_image()` function
 
-Commit all three things to your GitHub repo.
+<!-- > -->
+
+## [**10m**] 🌴 BREAK {docsify-ignore}
+
+<!-- > -->
+
+
+## [**60m**] 💻 Activity: Encoding a Secret Message
+
+Now that we can decode secret messages, it’s only natural that we want to encode some too! Provided in the starter code are a pair of functions called `write_text()` and `encode_image()`. `write_text()` will take a string and convert it to a black and white image of the string. You may use it as a helper function in completing your implementation of `encode_image()`.
+
+## 🌃 After Class
+
+Make sure both `encode_image` and `decode_image` functions are implemented in `steganography.py`, then submit the **code**, the **decoded image**, and an **image you encoded** on Gradescope under [Day 7: Steganography](https://www.gradescope.com/courses/160565/assignments/669567).
+
+<!-- > -->
+
+## 📚 Resources & Credits
+
+- [Steganography Tutorial | A Complete Guide For Beginners | Edureka](https://www.edureka.co/blog/steganography-tutorial)
+- [Steganography: Uses, Methods, Tools and Examples](https://www.ukessays.com/essays/computer-science/steganography-uses-methods-tools-3250.php)
+- [How to Use Steganography to Hide Secret Data in Images in Python - Python Code](https://www.thepythoncode.com/article/hide-secret-data-in-images-using-steganography-python)
+- [Image Steganography using Python | Rupali Roy | Towards Data Science](https://towardsdatascience.com/hiding-data-in-an-image-image-steganography-using-python-e491b68b1372)
+- [How To Hide Data in Images Using Python | Ashwin Goel | Medium](https://medium.com/better-programming/image-steganography-using-python-2250896e48b9)
