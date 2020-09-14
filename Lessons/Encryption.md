@@ -32,11 +32,11 @@
 
 ## [**30m**] 💻 Warm Up: Decoding a Secret Message (Continued)
 
-[Cryptography](Lessons/Cryptography.md#35m-%f0%9f%92%bb-activity-decoding-a-secret-message ':include')
+[Cryptography.md](Cryptography.md#35m--activity-encoding-a-secret-message ':include')
 
 ## [**15m**] 📖 TT: History of Encryption
 
-Photo by [rawpixel](https://unsplash.com/photos/EF8Jr-uPS2Y?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+![Photo by rawpixel](https://unsplash.com/photos/EF8Jr-uPS2Y?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
 The origins of our story today reach a long time back into hour past, a couple thousands of years…
 

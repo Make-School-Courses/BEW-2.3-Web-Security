@@ -1,5 +1,3 @@
-
-
 # 📜 Day 7: Intro to Cryptography
 
 <!-- omit in toc -->
