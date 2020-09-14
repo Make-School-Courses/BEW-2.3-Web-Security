@@ -93,7 +93,7 @@ The concept of MSB and LSB occurs in other contexts as well. For example, [parit
 
 Provided in this toolbox is a picture of a cute dog. However, this dog is hiding a very secret message… can you decode it? This image is also included in the toolbox under `images/encoded_sample.png`.
 
-![Sample encoded image](Assets/encoded_sample.png)
+![Sample encoded image](https://raw.githubusercontent.com/Make-School-Courses/BEW-2.3-Web-Security/master/Lessons/Assets/encoded_sample.png)
 
 Provided below is the starter code is a function called `decode_image`. The secret image was hidden in the LSB of the pixels in the red channel of the image. That is, the value of the LSB of each red pixel is 1 if the hidden image was 1 at that location, and 0 if the hidden image was also 0. Your task is to iterate though each pixel in the encoded image and set the `decode_image` pixel to be `(0, 0, 0)` or `(255, 255, 255`) depending on the value of that LSB.
 

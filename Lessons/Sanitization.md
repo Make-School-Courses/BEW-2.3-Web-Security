@@ -17,7 +17,7 @@ By the end of this lesson, you should be able to...
 
 ## 📖 Overview
 
-![xkcd](Lesson4Assets/xkcd.png)
+![xkcd](Assets/xkcd.png)
 
 Most web applications allow for some form of user input, whether it's a search bar, writing a message, filling out a form, or some other form of user input.
 

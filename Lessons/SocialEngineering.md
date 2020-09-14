@@ -19,7 +19,7 @@ By the end of this lesson, you should be able to...
 
 **How many of you have received an email similar to this one:**
 
-![amazon](Lesson1Assets/Amazon.png)
+![amazon](Assets/Amazon.png)
 
 Would you trust this? People are tricked by emails like this every day. This is an example of **phishing**, or tricking people into giving away their private information to you by pretending to be something you're not (i.e. Amazon).
 
@@ -39,7 +39,7 @@ Social Engineering is probably the most common and most successful type of attac
 
 ### Tailgating
 
-![tailgate](Lesson1Assets/tailgate.png)
+![tailgate](Assets/tailgate.png)
 
 **Tailgating** is when you gain access to an authorized area when you don't actually belong there.
 
@@ -47,15 +47,15 @@ Often all you need for this is confidence and the right attire. Check out this [
 
 ### Quid Pro Quo + Baiting
 
-![bait](Lesson1Assets/bait.jpg)
+![bait](Assets/bait.jpg)
 
 **Quid Pro Quo** is when you trade a service (or pretend to, at least) for information. The canonical example is when someone impersonates an IT support person who then installs a "virus protector" that just steals the user's information without their knowledge.
 
-**Baiting** is similar to Quid Pro Quo, but you are exchanging _goods_ instead of a service, such as giving the target free video games in exchange for credentials. Another famous form of this attack is a [USB Drop](https://www.redteamsecure.com/usb-drop-attacks-the-danger-of-lost-and-found-thumb-drives/) where there can be malicious code, or baits the victim into entering their credentials for a service/website. 
+**Baiting** is similar to Quid Pro Quo, but you are exchanging _goods_ instead of a service, such as giving the target free video games in exchange for credentials. Another famous form of this attack is a [USB Drop](https://www.redteamsecure.com/usb-drop-attacks-the-danger-of-lost-and-found-thumb-drives/) where there can be malicious code, or baits the victim into entering their credentials for a service/website.
 
 ### Pretexting
 
-![pretext](Lesson1Assets/pretext.png)
+![pretext](Assets/pretext.png)
 
 **Pretexting** is when you create a fabricated scenario in order to trick the victim into giving away personal information. An example would be someone calling you pretending to be the IRS and asking for your social security number over the phone.
 

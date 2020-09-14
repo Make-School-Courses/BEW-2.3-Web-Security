@@ -7,11 +7,11 @@ Lesson Plan:
 
 Deliverables:
   1. All TODOs in this file.
-  2. Decoded sample image with secret text revealed.
-  3. Your own image encoded with secret text!
+  2. Decoded sample image with secret text revealed
+  3. Your own image encoded with hidden secret text!
 """
-
 from PIL import Image
+https: // github.com/Make-School-Courses/BEW-2.3-Web-Security/blob/master/Assets/encoded_sample.png
 
 
 def decode_image(path_to_png):

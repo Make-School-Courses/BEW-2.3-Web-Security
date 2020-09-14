@@ -57,7 +57,7 @@ The instructor will assign each group a hack. Use this time to **prepare a short
 
 #### Risk Profile Chart
 
-![threat chart](Lesson2Assets/risk_profile_heatmap.png)
+![threat chart](Assets/risk_profile_heatmap.png)
 
 ### Security Models
 
