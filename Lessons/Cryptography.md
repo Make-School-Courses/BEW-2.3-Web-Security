@@ -26,7 +26,9 @@
 
 ## [**25m**] ☀️ Warm Up: Caesar Cypher Interview Practice
 
-Work on the [Caesar Cipher](https://www.hackerrank.com/challenges/caesar-cipher-1/problem ':include :type=iframe width=100% height=600px') interview coding problem on HackerRank.
+Work on the [Caesar Cipher](https://www.hackerrank.com/challenges/caesar-cipher-1/problem) interview coding problem on HackerRank.
+
+[Caesar Cipher](https://www.hackerrank.com/challenges/caesar-cipher-1/problem ':include :type=iframe width=100% height=600px')
 
 <!-- > -->
 
@@ -176,7 +178,12 @@ In this activity, you will delve a bit deeper into the specifics of how images a
 
 ### Starter Code
 
-Duplicate the starter code found [here](https://raw.githubusercontent.com/Make-School-Courses/BEW-2.3-Web-Security/master/Lessons/Code/steganography.py) to get started.
+Duplicate the starter code found below to get started.
+
+[](https://raw.githubusercontent.com/Make-School-Courses/BEW-2.3-Web-Security/master/Lessons/Code/steganography.py ':include :type=code python')
+
+[Link to File on GitHub](https://raw.githubusercontent.com/Make-School-Courses/BEW-2.3-Web-Security/master/Lessons/Code/steganography.py)
+
 
 <!-- > -->
 

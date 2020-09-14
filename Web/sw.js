@@ -14,7 +14,10 @@ const HOSTNAME_WHITELIST = [
   'unpkg.com',
   'github.com',
   'github.io',
-  'makeschool.com'
+  'makeschool.com',
+  'hackerrank.com',
+  'youtube.com',
+  'youtu.be'
 ]
 
 // The Util Function to hack URLs of intercepted requests
