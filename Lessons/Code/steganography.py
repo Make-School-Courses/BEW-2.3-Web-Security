@@ -1,11 +1,14 @@
 """
-STARTER CODE: Steganography Activity
+[Day 7] Assignment: Steganography
+  Turn in on Gradescope (https://make.sc/bew2.3-gradescope)
 
 Lesson Plan:
-https://make-school-courses.github.io/BEW-2.3-Web-Security/#/Lessons/Steganography
+  https://make-school-courses.github.io/BEW-2.3-Web-Security/#/Lessons/Steganography
 
-Objective:
-Finish all TODOs, then turn in on Gradescope (https://make.sc/bew2.3-gradescope).
+Deliverables:
+  1. All TODOs in this file.
+  2. Decoded sample image with secret text revealed.
+  3. Your own image encoded with secret text!
 """
 
 from PIL import Image
