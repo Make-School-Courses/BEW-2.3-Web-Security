@@ -72,6 +72,7 @@ For an example of cryptograms in literature, check out Edgar Allan Poe's [The Go
 <!-- > -->
 
 ## [**20m**] 📖 TT: Hiding Secrets in Images
+The same image viewed by white, blue, green and red lights reveals different hidden numbers.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/9/9c/Steganography.png)
 
@@ -179,10 +180,6 @@ The secret image is hidden in the LSB of the pixels in the red channel of the im
 ## [**35m**] 💻 Activity: Encoding a Secret Message
 
 Now that we can decode secret messages, it’s only natural that we want to encode some too! Provided in the starter code are a pair of functions called `write_text()` and `encode_image()`. `write_text()` will take a string and convert it to a black and white image of the string. You may use it as a helper function in completing your implementation of `encode_image()`.
-
-## [**03m**] 🌃 After Class
-
-Make sure both `encode_image` and `decode_image` functions are implemented in `steganography.py`, then submit the **code**, the **decoded image**, and an **image you encoded** on Gradescope under [Day 7: Steganography](https://www.gradescope.com/courses/160565/assignments/669567).
 
 <!-- > -->
 

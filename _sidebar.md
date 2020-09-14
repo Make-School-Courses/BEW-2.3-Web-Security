@@ -6,4 +6,5 @@
 - [Client Side Exploits](Lessons/ClientSideExploits.md)
 - [Incident Response](Lessons/IncidentResponse.md)
 - [Cryptography](Lessons/Cryptography.md)
+- [Encryption](Lessons/Encryption.md)
 - [DDoS](Lessons/DDoS.md)

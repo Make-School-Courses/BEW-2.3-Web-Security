@@ -46,14 +46,14 @@ By the end of the course, you will be able to&hellip;
 |   5   | Wed, Sept 2  |        _Web_         | **[Lesson 5]: Client-Side Vulnerabilities**              |
 |   -   | Mon, Sept 7  |          -           | **Holiday - Labor Day**                                  |
 |   6   | Wed, Sept 9  |    _Operational_     | **[Lesson 6]: You've Been Hacked. What Do?**             |
-|   7   | Mon, Sept 14 |        _Web_         | **[Lesson 7]: Intro to Information Hiding**              |
-|   8   | Wed, Sept 16 |        _Web_         | **[Lesson 8]: Large Scale Attacks, Real World Defenses** |
-|   9   | Mon, Sept 21 |      _Network_       | **Lab Day / Choose Your Own Adventure**                  |
+|   7   | Mon, Sept 14 |        _Web_         | **[Lesson 7]: Cryptography**              |
+|   8   | Wed, Sept 16 |        _Web_         | **[Lesson 8]: Encryption** |
+|   9   | Mon, Sept 21 |      _Network_       | **[Lesson 9]: DDoS** |
 |  10   | Wed, Sept 23 |    _Operational_     | **[Lesson 10]: Defense In Depth**                        |
 |  11   | Mon, Sept 28 |      _Computer_      | **[Lesson 11]: Securing Your Application Server**        |
-|  12   | Wed, Sept 30 |   _Culture / Web_    | **Project Lab Day / Rubric Review Day**                  |
-|  13   |  Mon, Oct 5  |          -           | TBD                                                      |
-|  14   |  Wed, Oct 7  |          -           | 1-1 Interview with Instructor                            |
+|  12   | Wed, Sept 30 |   _Culture / Web_    | TBD |
+|  13   |  Mon, Oct 5  | _1-1 w/ Dani_ | **Interview Day :one:** _(Surnames `A` - `M`)_  |
+|  14   |  Wed, Oct 7  | _1-1 w/ Dani_ | **Interview Day :two:** _(Surnames `N` - `Z`)_ |
 
 ## Class Assignments
 
@@ -103,4 +103,5 @@ Any additional resources you may need (online books, etc.) can be found here. Yo
 [Lesson 5]: Lessons/ClientSideExploits.md
 [Lesson 6]: Lessons/IncidentResponse.md
 [Lesson 7]: Lessons/Cryptography.md
-[Lesson 8]: Lessons/DDoS.md
+[Lesson 8]: Lessons/Encryption.md
+[Lesson 9]: Lessons/DDoS.md
