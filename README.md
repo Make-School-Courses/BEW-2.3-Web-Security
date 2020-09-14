@@ -96,16 +96,11 @@ Any additional resources you may need (online books, etc.) can be found here. Yo
 - [Student Handbook](https://make.sc/student-handbook) - Guidelines, policies, and resources for all Make School students
 
 [Gradescope]: https:/make.sc/bew2.3-gradescope
-[Lesson 1]: Archive/2019-T4/Lessons/Lesson1.md
-[Lesson 2]: Archive/2019-T4/Lessons/Lesson2.md
-[Lesson 3]: Archive/2019-T4/Lessons/Lesson3.md
-[Lesson 4]: Archive/2019-T4/Lessons/Lesson4.md
-[Lesson 5]: Archive/2019-T4/Lessons/Lesson5.md
-[Lesson 6]: Archive/2019-T4/Lessons/Lesson6.md
-[Lesson 7]: Archive/2019-T4/Lessons/Lesson7.md
-[Lesson 8]: Archive/2019-T4/Lessons/Lesson8.md
-[Lesson 9]: Archive/2019-T4/Lessons/Lesson9.md
-[Lesson 10]: Archive/2019-T4/Lessons/Lesson10.md
-[Lesson 11]: Archive/2019-T4/Lessons/Lesson11.md
-[Lesson 12]: Archive/2019-T4/Lessons/Lesson12.md
-[Lesson 13]: Archive/2019-T4/Lessons/Lesson13.md
+[Lesson 1]: Lessons/SocialEngineering.md
+[Lesson 2]: Lessons/EthicalHacking.md
+[Lesson 3]: Lessons/ServerSideExploits.md
+[Lesson 4]: Lessons/Sanitization.md
+[Lesson 5]: Lessons/ClientSideExploits.md
+[Lesson 6]: Lessons/IncidentResponse.md
+[Lesson 7]: Lessons/Steganography.md
+[Lesson 8]: Lessons/DDoS.md
