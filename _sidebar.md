@@ -1,3 +1,9 @@
 - **[Syllabus](README.md)**
-- **[Gradescope](https://make.sc/bew2.3-gradescope)**
-- **[Lessons](README.md#Schedule)**
+- [Day 1: Social Engineering](Lessons/SocialEngineering.md)
+- [Day 2: Ethical Hacks](Lessons/EthicalHacking.md)
+- [Day 3: Server Side Exploits](Lessons/ServerSideExploits.md)
+- [Day 4: Sanitization](Lessons/Sanitization.md)
+- [Day 5: Client Side Exploits](Lessons/ClientSideExploits.md)
+- [Day 6: Incident Response](Lessons/IncidentResponse.md)
+- [Day 7: Information Hiding](Lessons/Steganography.md)
+- [Day 8: DDoS](Lessons/DDoS.md))
