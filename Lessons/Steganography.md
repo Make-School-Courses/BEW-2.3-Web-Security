@@ -5,9 +5,10 @@
 
 - [[**02m**] 🏆 Objectives](#02m-%f0%9f%8f%86-objectives)
 - [[**30m**] 📖 Overview](#30m-%f0%9f%93%96-overview)
-- [[**60m**] 💻 Activity: Decoding a Hidden Message](#60m-%f0%9f%92%bb-activity-decoding-a-hidden-message)
 - [[**10m**] 🌴 BREAK](#10m-%f0%9f%8c%b4-break-docsify-ignore)
-- [[**60m**] 💻 Activity: Encoding a Secret Message](#60m-%f0%9f%92%bb-activity-encoding-a-secret-message)
+- [[**45m**] 💻 Activity: Decoding a Hidden Message](#45m-%f0%9f%92%bb-activity-decoding-a-hidden-message)
+- [[**10m**] 🌴 BREAK](#10m-%f0%9f%8c%b4-break-docsify-ignore-1)
+- [[**45m**] 💻 Activity: Encoding a Secret Message](#45m-%f0%9f%92%bb-activity-encoding-a-secret-message)
 - [[**03m**] 🌃 After Class](#03m-%f0%9f%8c%83-after-class)
 - [📚 Resources & Credits](#%f0%9f%93%9a-resources--credits)
 
@@ -122,7 +123,14 @@ def decode_image(path_to_png):
 
 <!-- > -->
 
-## [**60m**] 💻 Activity: Decoding a Hidden Message
+
+<!-- > -->
+
+## [**10m**] 🌴 BREAK {docsify-ignore}
+
+<!-- > -->
+
+## [**45m**] 💻 Activity: Decoding a Hidden Message
 
 In this activity, you will delve a bit deeper into the specifics of how images are created in addition to learning more about bits and binary math.
 
@@ -151,8 +159,7 @@ You will need three things to complete this assignment:
 
 <!-- > -->
 
-
-## [**60m**] 💻 Activity: Encoding a Secret Message
+## [**45m**] 💻 Activity: Encoding a Secret Message
 
 Now that we can decode secret messages, it’s only natural that we want to encode some too! Provided in the starter code are a pair of functions called `write_text()` and `encode_image()`. `write_text()` will take a string and convert it to a black and white image of the string. You may use it as a helper function in completing your implementation of `encode_image()`.
 
