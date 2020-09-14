@@ -16,17 +16,19 @@ def decode_image(path_to_png):
     """
     TODO: Add docstring and complete implementation.
     """
+    # Open the image using PIL:
     encoded_image = Image.open(path_to_png)
+
+    # Separate the red channel from the rest of the image:
     red_channel = encoded_image.split()[0]
 
     # Create a new PIL image with the same size as the encoded image:
     decoded_image = Image.new("RGB", encoded_image.size)
     pixels = decoded_image.load()
-
-    # TODO: Replace `print(red_channel)` below with a complete implementation:
-    # The variables below, x_size and y_size, are provided to assist you.
     x_size, y_size = encoded_image.size
-    print(red_channel)  # TODO: Replace me --- start coding here!
+
+    # TODO: Using the variables declared above, replace `print(red_channel)` with a complete implementation:
+    print(red_channel)  # Start coding here!
 
     # DO NOT MODIFY. Save the decoded image to disk:
     decoded_image.save("decoded_image.png")
