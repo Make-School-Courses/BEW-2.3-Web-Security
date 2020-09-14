@@ -28,8 +28,6 @@
 
 Work on the [Caesar Cipher](https://www.hackerrank.com/challenges/caesar-cipher-1/problem) interview coding problem on HackerRank.
 
-[Caesar Cipher](https://www.hackerrank.com/challenges/caesar-cipher-1/problem ':include :type=iframe width=100% height=600px')
-
 <!-- > -->
 
 ## [**05m**] 📖 TT: Hiding Secrets in Text
