@@ -1,3 +1,5 @@
+
+
 # 📜 Day 7: Intro to Cryptography
 
 <!-- omit in toc -->
@@ -70,6 +72,8 @@ For an example of cryptograms in literature, check out Edgar Allan Poe's [The Go
 <!-- > -->
 
 ## [**20m**] 📖 TT: Hiding Secrets in Images
+
+![](https://upload.wikimedia.org/wikipedia/commons/9/9c/Steganography.png)
 
 The main goal of [steganography](https://en.wikipedia.org/wiki/Steganography) is to **hide information within data that doesn’t appear to be secret at a glance**. For example, this sentence:
 
