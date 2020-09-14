@@ -3,16 +3,17 @@
 <!-- omit in toc -->
 ## ⏱ Agenda {docsify-ignore}
 
-1. [[**00m**] 🏆 Objectives](#00m-%f0%9f%8f%86-objectives)
-2. [[**00m**] 📖 Overview](#00m-%f0%9f%93%96-overview)
-4. [[**00m**] 💻 Activity](#00m-%f0%9f%92%bb-activity)
-5. [[**10m**] 🌴 BREAK {docsify-ignore}](#10m-%f0%9f%8c%b4-break)
-6. [🌃 After Class](#%f0%9f%8c%83-after-class)
-7. [📚 Resources & Credits](#%f0%9f%93%9a-resources--credits)
+- [[**02m**] 🏆 Objectives](#02m-%f0%9f%8f%86-objectives)
+- [[**30m**] 📖 Overview](#30m-%f0%9f%93%96-overview)
+- [[**60m**] 💻 Activity: Decoding a Hidden Message](#60m-%f0%9f%92%bb-activity-decoding-a-hidden-message)
+- [[**10m**] 🌴 BREAK](#10m-%f0%9f%8c%b4-break-docsify-ignore)
+- [[**60m**] 💻 Activity: Encoding a Secret Message](#60m-%f0%9f%92%bb-activity-encoding-a-secret-message)
+- [[**03m**] 🌃 After Class](#03m-%f0%9f%8c%83-after-class)
+- [📚 Resources & Credits](#%f0%9f%93%9a-resources--credits)
 
 <!-- > -->
 
-## [**00m**] 🏆 Objectives
+## [**02m**] 🏆 Objectives
 
 |   Level   | Verbs |
 | --------- | ----- |
@@ -25,9 +26,9 @@
 
 <!-- > -->
 
-## [**00m**] 📖 Overview
+## [**30m**] 📖 Overview
 
-## What is Steganography?
+### What is Steganography?
 
 In a nutshell, the main goal of [steganography](https://en.wikipedia.org/wiki/Steganography) is to **hide information within data that doesn’t appear to be secret at a glance**. For example, this sentence:
 
@@ -45,7 +46,7 @@ Secret inside
 
  Steganography is really handy to use, because people won’t even suspect that they’re looking at a secret message &mdash; making it less likely that they’ll want to try to crack your code. In the past, you may have created hidden messages using invisible ink, or using special keywords with your friends. However, as fearless coders, we have access to fancier ways to sneak data around.
 
-## The Value of One Pixel
+### The Value of One Pixel
 
 There are multiple ways to hide things within other things, but today we will be working with images.
 
@@ -89,7 +90,7 @@ Additionally, since changing the LSB doesn’t drastically change the overall va
 
 The concept of MSB and LSB occurs in other contexts as well. For example, [parity bits](https://en.wikipedia.org/wiki/Parity_bit) are used as a basic form of error checking. Additionally, because the LSBs will change rapidly even if the value of the bit changes a little, they are very useful for use in [hash functions](https://en.wikipedia.org/wiki/Hash_function) and [checksums](https://en.wikipedia.org/wiki/Checksum) for validation purposes.
 
-## Decoding the Sample Image
+### Decoding the Sample Image
 
 Provided in this toolbox is a picture of a cute dog. However, this dog is hiding a very secret message… can you decode it? This image is also included in the toolbox under `images/encoded_sample.png`.
 
@@ -155,7 +156,7 @@ You will need three things to complete this assignment:
 
 Now that we can decode secret messages, it’s only natural that we want to encode some too! Provided in the starter code are a pair of functions called `write_text()` and `encode_image()`. `write_text()` will take a string and convert it to a black and white image of the string. You may use it as a helper function in completing your implementation of `encode_image()`.
 
-## 🌃 After Class
+## [**03m**] 🌃 After Class
 
 Make sure both `encode_image` and `decode_image` functions are implemented in `steganography.py`, then submit the **code**, the **decoded image**, and an **image you encoded** on Gradescope under [Day 7: Steganography](https://www.gradescope.com/courses/160565/assignments/669567).
 
