@@ -32,7 +32,7 @@
 
 ## [**30m**] 💻 Warm Up: Decoding a Secret Message (Continued)
 
-[Cryptography.md](Cryptography.md#35m--activity-encoding-a-secret-message ':include')
+See [Cryptography.md](Cryptography.md#35m--activity-encoding-a-secret-message) for instructions on how to complete the first part of the activity we started last class period.
 
 ## [**15m**] 📖 TT: History of Encryption
 
