@@ -191,10 +191,24 @@ They are used as a mathematical scheme to prove the authenticity of a digital me
 
 ### Instructions
 
-[Teacher's Guide](https://docs.google.com/document/d/1Nfzl4PpN49s-JYCxqzGUwZECqEH02CA8oy9O47mDE94/edit#heading=h.akyf2ybown2s)
-
 In breakout groups of 2 to 3 students, work on the
 [Public Key Crypto Widget Activity](https://studio.code.org/s/allthethings/stage/31/puzzle/2).
+
+**Prompt**: With a partner, just play Alice and Bob and exchange a few numbers to get the hang of it.
+
+### Step by Step
+
+- Follow the character’s instructions on the screen.
+- Go through the process a few times:
+  - Alice produce a public key
+  - Bob encrypt a secret number
+  - Alice decrypt
+- Communicate by just speaking out loud.
+- Exchange roles at least once.
+- Verify that you can encrypt and decrypt messages.
+
+[Teacher's Guide](https://docs.google.com/document/d/1Nfzl4PpN49s-JYCxqzGUwZECqEH02CA8oy9O47mDE94/edit#heading=h.akyf2ybown2s)
+
 
 ### Goals
 
