@@ -19,24 +19,50 @@
 
 ## [**05m**] 🏆 Objectives
 
-<!-- |   Level   | Verbs |
-| --------- | ----- |
-| 6: Create | design, formulate, build, invent, create, compose, generate, derive, modify, develop |
-| 5: Evaluate | choose, support, relate, determine, defend, compare, contrast, justify, support, convince, select |
-| 4: Analyze | classify, break down, categorize, analyze, diagram, illustrate, criticize, simplify, associate |
-| 3: Apply | calculate, predict, apply, solve, illustrate, use, demonstrate, determine, model, perform, present |
-| 2: Understand | describe, explain, paraphrase, restate, summarize, contrast, interpret, discuss |
-| 1: Remember | list, recite, outline, define, name, match, quote, recall, identify, label, recognize | -->
+	1. Explain the difference between symmetric and asymmetric encryption.
+	2. Describe the basic process of encrypting data using public key encryption
+	3. Explain the benefits of public key cryptography
 
 <!-- > -->
 
-## [**30m**] 💻 Warm Up: Decoding a Secret Message (Continued)
+
+## Vocabulary
+
+	* **Asymmetric Encryption** - used in public key encryption, it is scheme in which the key to encrypt data is different from the key to decrypt.
+	* **Modulo** - a mathematical operation that returns the remainder after integer division. Example: 7 MOD 4 = 3
+	* **Private Key** - In an asymmetric encryption scheme the decryption key is kept private and never shared, so only the intended recipient has the ability to decrypt a message that has been encrypted with a public key.
+	* **Public Key Encryption** - Used prevalently on the web, it allows for secure messages to be sent between parties without having to agree on, or share, a secret key. It uses an asymmetric encryption scheme in which the encryption key is made public, but the decryption key is kept private.
+
+<!-- > -->
+
+## [**60m**] 💻 Activity: Decoding a Secret Message (Continued)
 
 See [Cryptography.md](Cryptography.md#35m--activity-encoding-a-secret-message) for instructions on how to complete the first part of the activity we started last class period.
 
+## [**15m**] ☀️ Warm Up: Prompt
+
+Watch this [video](https://youtu.be/ZghMPWGXexs), then respond to the prompt below:
+
+**Prompt**: "How can two people send encrypted messages to each other if they can't communicate, or agree on an encryption key ahead of time, and the only way they have to communicate is over the Internet?"
+
+You should assume that an adversary is always secretly eavesdropping on their conversation too.
+
+**With a partner come up with a strategy they could use to send encrypted messages**.
+
+## [**10m**] 💬 Discuss: Prompt
+
+Discuss student answers and give feedback.
+
+After 10 minutes of discussion, transition to TT:
+
+Today we're going to dig in a little bit deeper to how this idea of using different keys actually works. The ideas behind how it works are sophisticated, and so to get a deeper understanding we're going to do a series of short activities that stringing together several different ideas, bringing them all together in the end.
+
+
+## [**15m**] 🌴 BREAK {docsify-ignore}
+
 ## [**15m**] 📖 TT: History of Encryption
 
-![Photo by rawpixel](https://unsplash.com/photos/EF8Jr-uPS2Y?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+![](https://miro.medium.com/max/1400/1*_TOwTSw57Ze01xIMzCDr8w.jpeg)
 
 The origins of our story today reach a long time back into hour past, a couple thousands of years…
 
@@ -66,16 +92,31 @@ One very famous example of symmetric-key cryptography was the [**Enigma machine*
 
 So far we’ve read about the **Julius Caesar cypher** and **symmetric key encryption** (also known as private key encryption) — let’s focus on the truly revolutionary invention of **public key encryption** next!
 
-
-<!-- > -->
-
-
-
 <!-- > -->
 
 ## [**15m**] 📖 TT: Public Key Encryption
 
-Photo by [Micah Williams](https://unsplash.com/photos/lmFJOx7hPc4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+![](https://miro.medium.com/max/1400/1*ou27uef_kSZs9WBJhQ1Wnw.jpeg)
+
+The lock box analogy from the video is a good start, but our first step to seeing how public key cryptography works requires us to look at the same process of using public and private keys but with an analogy that goes a step further.
+
+### Analogy: Cups and Beans
+
+1. Alice choose a private key (some number of beans)
+2. Alice make a "public key cup" by placing beans in a clear cup and sealing it
+3. Pass the cup to Bob over the "Internet"
+4. Bob grab the "public key cup" and add a secret number (of beans) to it
+5. Pass the cup back to Alice over the "Internet"
+6. Alice open cup and subtract the number of beans she added originally
+7. What's left is Bob's secret number
+
+**Discuss**: Relate this process using cups and beans to the lockbox analogy from the video.
+
+- What's similar?
+- What's different?
+- What took place of the public key? The message? The private key?
+
+### History
 
 The story of this groundbreaking invention is a fascinating one — involving the British intelligence service “British Government Communications Headquarter” (GCHQ).
 
@@ -85,7 +126,7 @@ It’s an absolutely stunning piece of modern computer science history and if yo
 
 As an interesting twist of history, the same concept that John Ellis came up with originally, was replicated at a public institution in 1976 — a team of researchers at MIT and Stanford then had the ability to publish their findings and they were originally credited with the invention. It wasn’t until many years later, that John Ellis got the recognition for his idea.
 
-[Source](https://secure.i.telegraph.co.uk/multimedia/archive/03593/james_ellis4_3593310b.jpg)
+![](https://secure.i.telegraph.co.uk/multimedia/archive/03593/james_ellis4_3593310b.jpg)
 
 So what exactly was so important that the British intelligence community decided to keep it a secret?
 
@@ -99,7 +140,7 @@ This very abstract sounding concept enables us to do some marvelous things thoug
 
 You can see this process illustrated in the picture below:
 
-[Source](https://lisk.io/content/5-academy/2-blockchain-basics/4-how-does-blockchain-work/2-blockchain-cryptography-explained/6-public-key-cryptography-1.jpg)
+![](https://lisk.io/content/5-academy/2-blockchain-basics/4-how-does-blockchain-work/2-blockchain-cryptography-explained/6-public-key-cryptography-1.jpg)
 
 You can think of this abstractly like this — the public address is your bank account and the private key is your secret PIN. The address can be safely broadcasted to the public, while it is indispensable to keep your PIN safe and secret.
 
@@ -112,53 +153,21 @@ The fact that the mathematical functions used in Public Key Cryptography have th
 
 ## [**15m**] 📖 TT: Digital Signatures
 
-[file:E197AE5C-CC6B-4EDB-B5CC-2C7FE3AEF4A5-17894-000031A01AEFEF95/1*DOkMZGpaJItaW3W1oa_Daw.jpeg?q=20]img
-
-[image:E929DE48-AA73-48E7-8415-DE6F4AF9ECA4-17894-000031A023C96667/1*DOkMZGpaJItaW3W1oa_Daw.jpeg]img
-
-Photo by [Art Lasovsky](https://unsplash.com/photos/8XddFc6NkBY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-
 A really cool thing you can do with this **public key encryption** is to digitally sign a document. In order to do this, instead of using the public key to scramble a message, we now use the private key.
 
 By doing so, everybody can easily verify that we have digitally “signed” the document by checking if the corresponding hashes matches.
 
 Below you have a lovely visualization of how this works.
 
-[image:F1BDF2AC-9040-4BFA-8342-D0ABC341303C-17894-000031A030B9F13C/0*_MKT3oUju5QzuDS0?q=20.jpeg]img
-
-[image:B36D5A6E-9AEC-4344-81C1-1E04141CA6DF-17894-000031A03B7B434C/0*_MKT3oUju5QzuDS0.jpeg]img
-
-[Source](https://exonum.com/blog/content/images/2018/02/CPKDSS@2x.jpg)
+![](https://exonum.com/blog/content/images/2018/02/CPKDSS@2x.jpg)
 
 Digital signatures are at the core of how transactions work and can take place on a blockchain.
 
 They are used as a mathematical scheme to prove the authenticity of a digital message, meaning that they prove ownership of a private key without revealing that private key. Crazy stuff!
 
-
-<!-- > -->
-
-
-
-<!-- > -->
-
-
-
-
-## [**15m**] 🌴 BREAK {docsify-ignore}
-
-## [**45m**] 💻 Activity: Encoding a Secret Message
-
-Now that we can decode secret messages, it’s only natural that we want to encode some too! Provided in the starter code are a pair of functions called `write_text()` and `encode_image()`. `write_text()` will take a string and convert it to a black and white image of the string. You may use it as a helper function in completing your implementation of `encode_image()`.
-
-<!-- > -->
-
-## 🌃 After Class
-
-`TODO`
-
 <!-- > -->
 
 ## 📚 Resources & Credits
 
-`TODO`
-
+- [Code.org: Public Key Cryptography](https://curriculum.code.org/csp-1718/unit4/7/#public-key-cryptography11)
+- [Public Key Cryptography — A Comprehensive Guide | by Till Antonio Mahler | blockwhat? | Medium](https://medium.com/blockwhat/public-key-cryptography-a-comprehensive-guide-1e8489e08104)
