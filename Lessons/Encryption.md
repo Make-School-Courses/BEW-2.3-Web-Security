@@ -174,6 +174,16 @@ They are used as a mathematical scheme to prove the authenticity of a digital me
 
 <!-- > -->
 
+## [**05m**] 🔑  Key Takeaways
+
+Public Key Encryption was (and is) considered a major breakthrough in computer science.
+
+- Public key cryptography is what makes secure transactions on the Internet possible.
+- In the history of the Internet, the creation of public key cryptography is one of the most = - significant innovations; without it we could not do much of what we take for granted today --we couldn’t buy things, communicate without being spied on, use banks, or keep our own conduct on the Internet secret or private.
+- Until asymmetric encryption was invented, the only way to ensure secure transactions on the Internet was to establish a shared private key, or to use a third party to guarantee security.
+- The implications of this are huge. It means any person can send any other person a secret message transmitting information over insecure channels!
+
+
 ## [**10m**] 📊 Vibe Check: Day 8
 
 Ask students to complete the [check for understanding](https://PollEv.com/surveys/cEg1FxGArsHp2VmkJebWe/respond) poll.
