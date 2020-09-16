@@ -6,32 +6,32 @@
 ## ⏱ Agenda {docsify-ignore}
 
 - [[**05m**] 🏆 Objectives](#05m-%f0%9f%8f%86-objectives)
-- [[**30m**] 💻 Warm Up: Decoding a Secret Message (Continued)](#30m-%f0%9f%92%bb-warm-up-decoding-a-secret-message-continued)
+- [Vocabulary](#vocabulary)
+- [[**60m**] 💻 Activity: Decoding a Secret Message (Continued)](#60m-%f0%9f%92%bb-activity-decoding-a-secret-message-continued)
+- [[**15m**] ☀️ Warm Up: Prompt](#15m-%e2%98%80%ef%b8%8f-warm-up-prompt)
+- [[**10m**] 💬 Discuss: Prompt](#10m-%f0%9f%92%ac-discuss-prompt)
+- [[**15m**] 🌴 BREAK {docsify-ignore}](#15m-%f0%9f%8c%b4-break-docsify-ignore)
 - [[**15m**] 📖 TT: History of Encryption](#15m-%f0%9f%93%96-tt-history-of-encryption)
 - [[**15m**] 📖 TT: Public Key Encryption](#15m-%f0%9f%93%96-tt-public-key-encryption)
 - [[**15m**] 📖 TT: Digital Signatures](#15m-%f0%9f%93%96-tt-digital-signatures)
-- [[**15m**] 🌴 BREAK](#15m-%f0%9f%8c%b4-break-docsify-ignore)
-- [[**45m**] 💻 Activity: Encoding a Secret Message](#45m-%f0%9f%92%bb-activity-encoding-a-secret-message)
-- [🌃 After Class](#%f0%9f%8c%83-after-class)
 - [📚 Resources & Credits](#%f0%9f%93%9a-resources--credits)
 
 <!-- > -->
 
 ## [**05m**] 🏆 Objectives
 
-	1. Explain the difference between symmetric and asymmetric encryption.
-	2. Describe the basic process of encrypting data using public key encryption
-	3. Explain the benefits of public key cryptography
+1. Explain the difference between symmetric and asymmetric encryption.
+2. Describe the basic process of encrypting data using public key encryption
+3. Explain the benefits of public key cryptography
 
 <!-- > -->
 
+## [**05m**] 📄 Vocabulary
 
-## Vocabulary
-
-	* **Asymmetric Encryption** - used in public key encryption, it is scheme in which the key to encrypt data is different from the key to decrypt.
-	* **Modulo** - a mathematical operation that returns the remainder after integer division. Example: 7 MOD 4 = 3
-	* **Private Key** - In an asymmetric encryption scheme the decryption key is kept private and never shared, so only the intended recipient has the ability to decrypt a message that has been encrypted with a public key.
-	* **Public Key Encryption** - Used prevalently on the web, it allows for secure messages to be sent between parties without having to agree on, or share, a secret key. It uses an asymmetric encryption scheme in which the encryption key is made public, but the decryption key is kept private.
+- **Asymmetric Encryption** - used in public key encryption, it is scheme in which the key to encrypt data is different from the key to decrypt.
+- **Modulo** - a mathematical operation that returns the remainder after integer division. Example: 7 MOD 4 = 3
+- **Private Key** - In an asymmetric encryption scheme the decryption key is kept private and never shared, so only the intended recipient has the ability to decrypt a message that has been encrypted with a public key.
+- **Public Key Encryption** - Used prevalently on the web, it allows for secure messages to be sent between parties without having to agree on, or share, a secret key. It uses an asymmetric encryption scheme in which the encryption key is made public, but the decryption key is kept private.
 
 <!-- > -->
 
