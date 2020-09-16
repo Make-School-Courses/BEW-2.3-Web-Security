@@ -6,14 +6,16 @@
 ## ⏱ Agenda {docsify-ignore}
 
 - [[**05m**] 🏆 Objectives](#05m-%f0%9f%8f%86-objectives)
-- [Vocabulary](#vocabulary)
+- [[**05m**] 📄 Vocabulary](#05m-%f0%9f%93%84-vocabulary)
 - [[**60m**] 💻 Activity: Decoding a Secret Message (Continued)](#60m-%f0%9f%92%bb-activity-decoding-a-secret-message-continued)
 - [[**15m**] ☀️ Warm Up: Prompt](#15m-%e2%98%80%ef%b8%8f-warm-up-prompt)
 - [[**10m**] 💬 Discuss: Prompt](#10m-%f0%9f%92%ac-discuss-prompt)
 - [[**15m**] 🌴 BREAK {docsify-ignore}](#15m-%f0%9f%8c%b4-break-docsify-ignore)
 - [[**15m**] 📖 TT: History of Encryption](#15m-%f0%9f%93%96-tt-history-of-encryption)
 - [[**15m**] 📖 TT: Public Key Encryption](#15m-%f0%9f%93%96-tt-public-key-encryption)
+- [[**10m**] 💻 Activity: Word Cloud](#10m-%f0%9f%92%bb-activity-word-cloud)
 - [[**15m**] 📖 TT: Digital Signatures](#15m-%f0%9f%93%96-tt-digital-signatures)
+- [[**10m**] 📊 Vibe Check: Day 8](#10m-%f0%9f%93%8a-vibe-check-day-8)
 - [📚 Resources & Credits](#%f0%9f%93%9a-resources--credits)
 
 <!-- > -->
@@ -151,6 +153,11 @@ The fact that the mathematical functions used in Public Key Cryptography have th
 
 <!-- > -->
 
+
+## [**10m**] 💻 Activity: Word Cloud
+
+Complete the word cloud activity on [PollEverywhere](https://pollev.com/droxey)
+
 ## [**15m**] 📖 TT: Digital Signatures
 
 A really cool thing you can do with this **public key encryption** is to digitally sign a document. In order to do this, instead of using the public key to scramble a message, we now use the private key.
@@ -166,6 +173,12 @@ Digital signatures are at the core of how transactions work and can take place o
 They are used as a mathematical scheme to prove the authenticity of a digital message, meaning that they prove ownership of a private key without revealing that private key. Crazy stuff!
 
 <!-- > -->
+
+## [**10m**] 📊 Vibe Check: Day 8
+
+Ask students to complete the [check for understanding](https://PollEv.com/surveys/cEg1FxGArsHp2VmkJebWe/respond) poll.
+
+Discuss the answers before dismissing class.
 
 ## 📚 Resources & Credits
 
