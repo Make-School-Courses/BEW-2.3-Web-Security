@@ -15,6 +15,7 @@
 - [[**15m**] 📖 TT: Public Key Encryption](#15m-%f0%9f%93%96-tt-public-key-encryption)
 - [[**10m**] 💻 Activity: Word Cloud](#10m-%f0%9f%92%bb-activity-word-cloud)
 - [[**15m**] 📖 TT: Digital Signatures](#15m-%f0%9f%93%96-tt-digital-signatures)
+- [[**05m**] 🔑 Key Takeaways](#05m-%f0%9f%94%91-key-takeaways)
 - [[**10m**] 📊 Vibe Check: Day 8](#10m-%f0%9f%93%8a-vibe-check-day-8)
 - [📚 Resources & Credits](#%f0%9f%93%9a-resources--credits)
 
@@ -174,15 +175,14 @@ They are used as a mathematical scheme to prove the authenticity of a digital me
 
 <!-- > -->
 
-## [**05m**] 🔑  Key Takeaways
+## [**05m**] 🔑 Key Takeaways
 
-Public Key Encryption was (and is) considered a major breakthrough in computer science.
+**Public Key Encryption was (and is) considered a major breakthrough in computer science**.
 
 - Public key cryptography is what makes secure transactions on the Internet possible.
 - In the history of the Internet, the creation of public key cryptography is one of the most = - significant innovations; without it we could not do much of what we take for granted today --we couldn’t buy things, communicate without being spied on, use banks, or keep our own conduct on the Internet secret or private.
 - Until asymmetric encryption was invented, the only way to ensure secure transactions on the Internet was to establish a shared private key, or to use a third party to guarantee security.
 - The implications of this are huge. It means any person can send any other person a secret message transmitting information over insecure channels!
-
 
 ## [**10m**] 📊 Vibe Check: Day 8
 
