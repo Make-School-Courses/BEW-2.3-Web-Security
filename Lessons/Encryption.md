@@ -105,6 +105,8 @@ The lock box analogy from the video is a good start, but our first step to seein
 
 ### Analogy: Cups and Beans
 
+![](assets/../Assets/cups-and-beans.png)
+
 1. Alice choose a private key (some number of beans)
 2. Alice make a "public key cup" by placing beans in a clear cup and sealing it
 3. Pass the cup to Bob over the "Internet"
@@ -119,7 +121,24 @@ The lock box analogy from the video is a good start, but our first step to seein
 - What's different?
 - What took place of the public key? The message? The private key?
 
-### History
+  <details><summary>SHOW ANSWERS</summary>
+  <p>
+      <h3>Similarities:</h3>
+      - For Bob to send a message to Alice he needs to obtain a public key, which we can use to "lock" a message<br>
+      - Only Alice can "unlock" the message<br>
+      - Bob and Alice do not need to agree on a key ahead of time<br>
+      - Alice never lets her private key out in public<br>
+
+      <h3>Differences:</h3>
+
+      - Beans in cups is closer to how data is encrypted - beans are data, sealed in the jar is encrypted<br>
+      - Eve (or anyone else) could only guess what was in the jar even though it passed right in front of/through them over the "Internet"<br>
+      - At no point was the secret message ever out in public, or sent unsecured<br>
+      - Closer to reality: Notice how the public key itself is a form of encrypted message. But it's used to encrypt something else
+  </p>
+  </details>
+
+### (Optional) History: Asymmetric Encryption
 
 The story of this groundbreaking invention is a fascinating one — involving the British intelligence service “British Government Communications Headquarter” (GCHQ).
 
@@ -154,12 +173,7 @@ The fact that the mathematical functions used in Public Key Cryptography have th
 
 <!-- > -->
 
-
-## [**10m**] 💻 Activity: Word Cloud
-
-Complete the word cloud activity on [PollEverywhere](https://pollev.com/droxey)
-
-## [**15m**] 📖 TT: Digital Signatures
+### (Optional) Use Case: Digital Signatures
 
 A really cool thing you can do with this **public key encryption** is to digitally sign a document. In order to do this, instead of using the public key to scramble a message, we now use the private key.
 
@@ -172,6 +186,22 @@ Below you have a lovely visualization of how this works.
 Digital signatures are at the core of how transactions work and can take place on a blockchain.
 
 They are used as a mathematical scheme to prove the authenticity of a digital message, meaning that they prove ownership of a private key without revealing that private key. Crazy stuff!
+
+## [**20m**] 💻 Activity: Code.org Public Key Crypto Activity
+
+### Instructions
+
+[Teacher's Guide](https://docs.google.com/document/d/1Nfzl4PpN49s-JYCxqzGUwZECqEH02CA8oy9O47mDE94/edit#heading=h.akyf2ybown2s)
+
+In breakout groups of 2 to 3 students, work on the
+[Public Key Crypto Widget Activity](https://studio.code.org/s/allthethings/stage/31/puzzle/2).
+
+### Goals
+
+- Use the widget to practice the public key encryption process
+- Explain how asymmetric encryption works at a high level
+- See how multiplication + modulo can be used to create asymmetric keys
+- Try to crack messages encrypted with multiplication + modulo
 
 <!-- > -->
 
