@@ -7,4 +7,5 @@
 - [Incident Response](Lessons/IncidentResponse.md)
 - [Cryptography](Lessons/Cryptography.md)
 - [Encryption](Lessons/Encryption.md)
+- [OWASP Top 10](Lessons/OWASP.md)
 - [DDoS](Lessons/DDoS.md)

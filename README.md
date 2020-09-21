@@ -48,9 +48,9 @@ By the end of the course, you will be able to&hellip;
 |   6   | Wed, Sept 9  |    _Operational_     | **[Lesson 6]: You've Been Hacked. What Do?**             |
 |   7   | Mon, Sept 14 |        _Web_         | **[Lesson 7]: Cryptography**              |
 |   8   | Wed, Sept 16 |        _Web_         | **[Lesson 8]: Encryption** |
-|   9   | Mon, Sept 21 |      _Network_       | **[Lesson 9]: DDoS** |
-|  10   | Wed, Sept 23 |    _Operational_     | **[Lesson 10]: Defense In Depth**                        |
-|  11   | Mon, Sept 28 |      _Computer_      | **[Lesson 11]: Securing Your Application Server**        |
+|   9   | Mon, Sept 21 |      _Network_       | **[Lesson 9]: OWASP Top 10** |
+|  10   | Wed, Sept 23 |    _Operational_     | **[Lesson 10]: Incident Response Drills**                        |
+|  11   | Mon, Sept 28 |      _Computer_      | **[Lesson 11]: DDoS**        |
 |  12   | Wed, Sept 30 |   _Culture / Web_    | TBD |
 |  13   |  Mon, Oct 5  | _1-1 w/ Dani_ | **Interview Day :one:** _(Surnames `A` - `M`)_  |
 |  14   |  Wed, Oct 7  | _1-1 w/ Dani_ | **Interview Day :two:** _(Surnames `N` - `Z`)_ |
@@ -104,4 +104,6 @@ Any additional resources you may need (online books, etc.) can be found here. Yo
 [Lesson 6]: Lessons/IncidentResponse.md
 [Lesson 7]: Lessons/Cryptography.md
 [Lesson 8]: Lessons/Encryption.md
-[Lesson 9]: Lessons/DDoS.md
+[Lesson 9]: Lessons/OWASP.md
+[Lesson 10]: Lessons/Drills.md
+[Lesson 11]: Lessons/DDoS.md
