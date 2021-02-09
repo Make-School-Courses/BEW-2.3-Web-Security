@@ -2,7 +2,7 @@
    <img src="banner.png" height="320" alt="BEW 2.3 @ Make School">
 </p>
 
-# BEW 2.3: Web Security
+# BEW 2.3: Intro to Web Security
 
 | Instructor | Office Hours | TA  | TA Office Hours |
 | ---------- | ------------ | --- | ------------ |
