@@ -4,10 +4,6 @@
 
 # BEW 2.3: Intro to Web Security
 
-| Instructor | Office Hours | TA  | TA Office Hours |
-| ---------- | ------------ | --- | ------------ |
-| [Dani](https://github.com/droxey) | Tuesdays @ 4:30 - 5:30pm (PST) | [Abhi](https://github.com/Abhishek5101) | `TBA` |
-
 ## Course Description
 
 _This course covers key concepts in internet data security and best practices for keeping information safe. Students will examine historical hacks, learn how to analyze websites and web architectures for classical security vulnerabilities, and learn how to defend against security attacks._
@@ -39,21 +35,20 @@ By the end of the course, you will be able to&hellip;
 
 | Class |     Date     |  Security Category   | Topic                                                    |
 | :---: | :----------: | :------------------: | -------------------------------------------------------- |
-|   1   | Wed, Aug 19  | _Social Engineering_ | **[Lesson 1]: How to Hack a Human**                      |
-|   2   | Mon, Aug 24  |      _Culture_       | **[Lesson 2]: Historic Hacks / Ethical Hacking**         |
-|   3   | Wed, Aug 26  |        _Web_         | **[Lesson 3]: Server-Side Vulnerabilities**              |
-|   4   | Mon, Aug 31  |        _Web_         | **[Lesson 4]: Securing Data: Sanitization & Validation** |
-|   5   | Wed, Sept 2  |        _Web_         | **[Lesson 5]: Client-Side Vulnerabilities**              |
-|   -   | Mon, Sept 7  |          -           | **Holiday - Labor Day**                                  |
-|   6   | Wed, Sept 9  |    _Operational_     | **[Lesson 6]: You've Been Hacked. What Do?**             |
-|   7   | Mon, Sept 14 |        _Web_         | **[Lesson 7]: Cryptography**              |
-|   8   | Wed, Sept 16 |        _Web_         | **[Lesson 8]: Encryption** |
-|   9   | Mon, Sept 21 |      _Network_       | **[Lesson 9]: OWASP Top 10** |
-|  10   | Wed, Sept 23 |    _Operational_     | **[Lesson 10]: Incident Response Drills**                        |
-|  11   | Mon, Sept 28 |      _Computer_      | **[Lesson 11]: DDoS**        |
-|  12   | Wed, Sept 30 |   _Culture / Web_    | TBD |
-|  13   |  Mon, Oct 5  | _1-1 w/ Dani_ | **Interview Day :one:** _(Surnames `A` - `M`)_  |
-|  14   |  Wed, Oct 7  | _1-1 w/ Dani_ | **Interview Day :two:** _(Surnames `N` - `Z`)_ |
+|   1   | Mon, Mar 29  | _Social Engineering_ | **[Lesson 1]: How to Hack a Human** |
+|   -   | Wed, Mar 31 |  **No Class - Cesar Chavez**                                |
+|   2   | Mon, Apr 5  |      _Culture_       | **[Lesson 2]: Historic Hacks / Ethical Hacking**         |
+|   3   | Wed, Apr 7  |        _Web_         | **[Lesson 3]: Server-Side Vulnerabilities**              |
+|   4   | Mon, Apr 12  |        _Web_         | **[Lesson 4]: Securing Data: Sanitization & Validation** |
+|   5   | Wed, Apr 14  |        _Web_         | **[Lesson 5]: Client-Side Vulnerabilities**              |                                |
+|   6   | Mon, Apr 19  |    _Operational_     | **[Lesson 6]: You've Been Hacked. What Do?**             |
+|   7   | Wed, Apr 21 |        _Web_         | **[Lesson 7]: Cryptography**              |
+|   8   | Wed, Apr 26 |        _Web_         | **[Lesson 8]: Encryption** |
+|   9   | Wed, Apr 28 |      _Network_       | **[Lesson 9]: OWASP Top 10** |
+|  10   | Mon, May 3 |    _Operational_     | **[Lesson 10]: Incident Response Drills**                        |
+|  11   | Wed, May 5 |      _Computer_      | **[Lesson 11]: DDoS**        |
+|  12   |  Mon, May 10  | _1-1 w/ Dani_ | **Interview Day :one:** _(Surnames `A` - `M`)_  |
+|  13   |  Wed, May 12  | _1-1 w/ Dani_ | **Interview Day :two:** _(Surnames `N` - `Z`)_ |
 
 ## Class Assignments
 
