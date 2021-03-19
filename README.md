@@ -30,7 +30,7 @@ By the end of the course, you will be able to&hellip;
 
 ## Schedule
 
-**Course Dates:** Wednesday, August 19 through Wednesday, October 7, 2020 _(7 weeks)_<br>
+**Course Dates:** Monday, March 29 through Wednesday, May 12, 2021 _(7 weeks)_<br>
 **Class Times:** Monday &amp; Wednesday at 9:30am to 12:15pm _(14 class sessions)_
 
 | Class |     Date     |  Security Category   | Topic                                                    |
