@@ -1,15 +1,23 @@
 # 📜 Day 1: How to Hack a Human
 
+<!-- omit in toc -->
 ## ⏱ Agenda
 
-- Learning Objectives
-- What is social engineering?
-- Social engineering a netflix login
-- Examples of social engineering
-- Break
-- Social engineering for good
+1. [🏆 Learning Objectives](#%F0%9F%8F%86-learning-objectives)
+1. [📖 Overview](#%F0%9F%93%96-overview)
+1. [💻 Activity: I Want Netflix](#%F0%9F%92%BB-activity-i-want-netflix)
+1. [Examples of Social Engineering](#examples-of-social-engineering)
+   1. [Tailgating](#tailgating)
+   1. [Quid Pro Quo + Baiting](#quid-pro-quo--baiting)
+   1. [Pretexting](#pretexting)
+1. [Activity: Defense!](#activity-defense)
+1. [🌴 BREAK](#%F0%9F%8C%B4-break)
+1. [Activity: Social Engineering for Good](#activity-social-engineering-for-good)
+1. [🌃 After Class](#%F0%9F%8C%83-after-class)
+1. [📚 Resources & Credits](#%F0%9F%93%9A-resources--credits)
 
 ## 🏆 Learning Objectives
+
 By the end of this lesson, you should be able to...
 
 1. Understand what social engineering is, and how to recognize it in the wild

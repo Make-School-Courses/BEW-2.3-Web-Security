@@ -70,6 +70,7 @@ For an example of cryptograms in literature, check out Edgar Allan Poe's [The Go
 <!-- > -->
 
 ## [**20m**] 📖 TT: Hiding Secrets in Images
+
 The same image viewed by white, blue, green and red lights reveals different hidden numbers.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/9/9c/Steganography.png)

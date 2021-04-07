@@ -14,8 +14,7 @@ _This course covers key concepts in internet data security and best practices fo
 
 ## Course Specifics
 
-**Course Delivery**: online | 7 weeks | 14 sessions
-
+**Course Delivery**: online | 7 weeks | 14 sessions<br>
 **Course Credits**: 3 units | 37.5 Seat Hours | 75 Total Hours
 
 ## Learning Outcomes
@@ -31,7 +30,7 @@ By the end of the course, you will be able to&hellip;
 ## Schedule
 
 **Course Dates:** Monday, March 29 through Wednesday, May 12, 2021 _(7 weeks)_<br>
-**Class Times:** Monday &amp; Wednesday at 9:30am to 12:15pm _(14 class sessions)_
+**Class Times:** Monday &amp; Wednesday at 9:30am to 12:15pm _(13 class sessions)_
 
 | Class |     Date     |  Security Category   | Topic                                                    |
 | :---: | :----------: | :------------------: | -------------------------------------------------------- |
@@ -52,23 +51,33 @@ By the end of the course, you will be able to&hellip;
 
 ## Class Assignments
 
-### Tutorials
-
-- [**NSE 1**: The Threat Landscape](https://training.fortinet.com/course/view.php?id=1406)
-- [**NSE 2**: The Evolution of Cybersecurity](https://training.fortinet.com/course/view.php?id=2271)
-
-### Assignments
-
 We will be using [Gradescope] this term, which allows us to provide fast and accurate feedback on your work. All assigned work will be submitted through [Gradescope], and assignment and exam grades will be returned through [Gradescope]. As soon as grades are posted, you will be notified immediately so that you can log in and see your feedback. You may also submit regrade requests if you feel we have made a mistake.
 
 Your [Gradescope] login is your Make School email, and your password can be changed at [https://gradescope.com/reset_password](https://gradescope.com/reset_password). The same link can be used if you need to set your password for the first time.
+
+### Tutorials
+
+| Name | Description | Due Date |
+| ---- | ----------- | -------- |
+| [NSE 1: The Threat Landscape] | _TODO_ | **Due 04/19 @ 11:59PM** |
+| [NSE 2: The Evolution of Cybersecurity] | _TODO_ |  **Due 05/05 @ 11:59PM** |
+
+### Challenges
+
+| Name | Description | Due Date |
+| ---- | ----------- | -------- |
+| [Historic Hacks Presentation] | _TODO_ |  **Due 04/05 @ 11:59PM** |
+| [Social Engineering] | _TODO_ |  **Due 04/07 @ 11:59PM** |
+| [Jinja SSTI Exploits] | _TODO_ |  **Due 04/14 @ 11:59PM** |
+| [Steganography] | _TODO_ |  **Due 04/30 @ 11:59PM** |
+| [Juice Box] | _TODO_ |  **Due 05/10 @ 11:59PM** |
 
 ## Evaluation
 
 To pass this course you must meet the following requirements:
 
-- The certificate earned at the end of each tutorial must be turned in on [Gradescope].
-- Complete and pass all in class challenges and assignments on [Gradescope].
+- The certificate earned at the end of each [tutorial](#tutorials) must be turned in on [Gradescope].
+- Complete and pass all in class [challenges and assignments](#challenges) on [Gradescope].
 - Attend and pass a final Course Reflection interview with the instructor.
 - Actively participate in class and abide by the attendance policy.
 - Make up all classwork from all absences.
@@ -92,7 +101,7 @@ Any additional resources you may need (online books, etc.) can be found here. Yo
 - [Student Handbook](https://make.sc/student-handbook) - Guidelines, policies, and resources for all Make School students
 
 
-[Gradescope]: https:/make.sc/bew2.3-gradescope
+[Gradescope]: https://gradescope.com
 [Lesson 1]: Lessons/SocialEngineering.md
 [Lesson 2]: Lessons/EthicalHacking.md
 [Lesson 3]: Lessons/ServerSideExploits.md
@@ -104,3 +113,10 @@ Any additional resources you may need (online books, etc.) can be found here. Yo
 [Lesson 9]: Lessons/OWASP.md
 [Lesson 10]: Lessons/Drills.md
 [Lesson 11]: Lessons/DDoS.md
+[NSE 1: The Threat Landscape]: https://training.fortinet.com/course/view.php?id=1406
+[NSE 2: The Evolution of Cybersecurity]: https://training.fortinet.com/course/view.php?id=2271
+[Historic Hacks Presentation]: Lessons/EthicalHacking.md#%f0%9f%92%bb-40m-activity-historical-hacks-research
+[Social Engineering]: Lessons/SocialEngineering.md#activity-social-engineering-for-good
+[Jinja SSTI Exploits]: Lessons/ServerSideExploits.md#%f0%9f%92%bb-60m-in-class-activity-ssti
+[Steganography]: Lessons/Cryptography.md#35m-%f0%9f%92%bb-activity-decoding-a-secret-message
+[Juice Box]: Lessons/OWASP.md#60m-%f0%9f%92%bb-activity-juice-shop
