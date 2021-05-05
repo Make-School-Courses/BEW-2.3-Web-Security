@@ -44,10 +44,10 @@ By the end of the course, you will be able to&hellip;
 |   7   | Wed, Apr 21 |        _Web_         | **[Lesson 7]: Cryptography**              |
 |   8   | Wed, Apr 26 |        _Web_         | **[Lesson 8]: Encryption** |
 |   9   | Wed, Apr 28 |      _Network_       | **[Lesson 9]: OWASP Top 10** |
-|  10   | Mon, May 3 |    _Operational_     | **[Lesson 10]: Incident Response Drills**                        |
-|  11   | Wed, May 5 |      _Computer_      | **[Lesson 11]: DDoS**        |
-|  12   |  Mon, May 10  | _1-1 w/ Dani_ | **Interview Day :one:** _(Surnames `A` - `M`)_  |
-|  13   |  Wed, May 12  | _1-1 w/ Dani_ | **Interview Day :two:** _(Surnames `N` - `Z`)_ |
+|  10   | Mon, May 3 |    _Operational_     | **[Lesson 10]: DDoS**                        |
+|  11   | Wed, May 5 |      _Computer_      | Lab Day |
+|  12   |  Mon, May 10  | _1-1 w/ Dani_ | Prepare Study Guide / Mock Interviews   |
+|  13   |  Wed, May 12  | _1-1 w/ Dani_ | **Interview Day :one:** _(Surnames `N` - `Z`)_ |
 
 ## Class Assignments
 
@@ -111,8 +111,8 @@ Any additional resources you may need (online books, etc.) can be found here. Yo
 [Lesson 7]: Lessons/Cryptography.md
 [Lesson 8]: Lessons/Encryption.md
 [Lesson 9]: Lessons/OWASP.md
-[Lesson 10]: Lessons/Drills.md
-[Lesson 11]: Lessons/DDoS.md
+[Lesson 10]: Lessons/DDoS.md
+[Lesson 11]: Lessons/Drills.md
 [NSE 1: The Threat Landscape]: https://training.fortinet.com/course/view.php?id=1406
 [NSE 2: The Evolution of Cybersecurity]: https://training.fortinet.com/course/view.php?id=2271
 [Historic Hacks Presentation]: Lessons/EthicalHacking.md#%f0%9f%92%bb-40m-activity-historical-hacks-research
